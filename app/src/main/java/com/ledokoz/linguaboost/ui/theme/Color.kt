@@ -2,10 +2,16 @@ package com.ledokoz.linguaboost.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+val PrimaryBlue = Color(0xFF0061A4)
+val SecondaryBlue = Color(0xFF535F70)
+val TertiaryBlue = Color(0xFF6B5778)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+val DarkPrimary = Color(0xFFD1E4FF)
+val DarkSecondary = Color(0xFFBBC7DB)
+val DarkTertiary = Color(0xFFD6BEE4)
+
+val BackgroundLight = Color(0xFFFDFBFF)
+val BackgroundDark = Color(0xFF1A1C1E)
+
+val SurfaceLight = Color(0xFFFDFBFF)
+val SurfaceDark = Color(0xFF1A1C1E)
