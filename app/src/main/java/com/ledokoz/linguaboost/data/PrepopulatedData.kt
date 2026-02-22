@@ -1880,7 +1880,444 @@ object PrepopulatedData {
         Word(original = "Quantenfluktuationen", translation = "quantum fluctuations", languageCode = "DE", category = "QuantumElectronics"),
         Word(original = "Quantenfeld-Effekte", translation = "quantum field effects", languageCode = "DE", category = "QuantumElectronics"),
         Word(original = "Quanteneffekte in Festkörpern", translation = "quantum effects in solids", languageCode = "DE", category = "QuantumElectronics"),
-        Word(original = "Quantenmetrologie", translation = "quantum metrology", languageCode = "DE", category = "QuantumElectronics")
+        Word(original = "Quantenmetrologie", translation = "quantum metrology", languageCode = "DE", category = "QuantumElectronics"),
+        
+        // Advanced Quantum Field Theory
+        Word(original = "Quantenfeldtheorie", translation = "quantum field theory", languageCode = "DE", category = "QuantumFieldTheory"),
+        Word(original = "Eichtheorien", translation = "gauge theories", languageCode = "DE", category = "QuantumFieldTheory"),
+        Word(original = "Renormierung", translation = "renormalization", languageCode = "DE", category = "QuantumFieldTheory"),
+        Word(original = "Feynman-Diagramme", translation = "Feynman diagrams", languageCode = "DE", category = "QuantumFieldTheory"),
+        Word(original = "Quantenchromodynamik", translation = "quantum chromodynamics", languageCode = "DE", category = "QuantumFieldTheory"),
+        Word(original = "Elektroschwache Wechselwirkung", translation = "electroweak interaction", languageCode = "DE", category = "QuantumFieldTheory"),
+        Word(original = "Spontane Symmetriebrechung", translation = "spontaneous symmetry breaking", languageCode = "DE", category = "QuantumFieldTheory"),
+        Word(original = "Quantengravitation", translation = "quantum gravity", languageCode = "DE", category = "QuantumFieldTheory"),
+        Word(original = "Stringtheorie", translation = "string theory", languageCode = "DE", category = "QuantumFieldTheory"),
+        Word(original = "Supersymmetrie", translation = "supersymmetry", languageCode = "DE", category = "QuantumFieldTheory"),
+        
+        // Advanced Relativity Theory
+        Word(original = "Relativitätstheorie", translation = "relativity theory", languageCode = "DE", category = "Relativity"),
+        Word(original = "Spezielle Relativitätstheorie", translation = "special relativity", languageCode = "DE", category = "Relativity"),
+        Word(original = "Allgemeine Relativitätstheorie", translation = "general relativity", languageCode = "DE", category = "Relativity"),
+        Word(original = "Raum-Zeit-Krümmung", translation = "space-time curvature", languageCode = "DE", category = "Relativity"),
+        Word(original = "Schwarze Löcher", translation = "black holes", languageCode = "DE", category = "Relativity"),
+        Word(original = "Gravitationswellen", translation = "gravitational waves", languageCode = "DE", category = "Relativity"),
+        Word(original = "Kosmologische Konstante", translation = "cosmological constant", languageCode = "DE", category = "Relativity"),
+        Word(original = "Lorentz-Transformation", translation = "Lorentz transformation", languageCode = "DE", category = "Relativity"),
+        Word(original = "Minkowski-Raum", translation = "Minkowski space", languageCode = "DE", category = "Relativity"),
+        Word(original = "Raum-Zeit-Diagramme", translation = "space-time diagrams", languageCode = "DE", category = "Relativity"),
+        
+        // Advanced Cosmology
+        Word(original = "Kosmologie", translation = "cosmology", languageCode = "DE", category = "Cosmology"),
+        Word(original = "Urknalltheorie", translation = "big bang theory", languageCode = "DE", category = "Cosmology"),
+        Word(original = "Kosmische Hintergrundstrahlung", translation = "cosmic microwave background", languageCode = "DE", category = "Cosmology"),
+        Word(original = "Dunkle Materie", translation = "dark matter", languageCode = "DE", category = "Cosmology"),
+        Word(original = "Dunkle Energie", translation = "dark energy", languageCode = "DE", category = "Cosmology"),
+        Word(original = "Kosmologisches Prinzip", translation = "cosmological principle", languageCode = "DE", category = "Cosmology"),
+        Word(original = "Hubble-Gesetz", translation = "Hubble's law", languageCode = "DE", category = "Cosmology"),
+        Word(original = "Kosmologische Rotverschiebung", translation = "cosmological redshift", languageCode = "DE", category = "Cosmology"),
+        Word(original = "Inflationstheorie", translation = "inflation theory", languageCode = "DE", category = "Cosmology"),
+        Word(original = "Multiversum", translation = "multiverse", languageCode = "DE", category = "Cosmology"),
+        
+        // Advanced Astrophysics
+        Word(original = "Astrophysik", translation = "astrophysics", languageCode = "DE", category = "Astrophysics"),
+        Word(original = "Stellare Evolution", translation = "stellar evolution", languageCode = "DE", category = "Astrophysics"),
+        Word(original = "Supernovae", translation = "supernovae", languageCode = "DE", category = "Astrophysics"),
+        Word(original = "Neutronensterne", translation = "neutron stars", languageCode = "DE", category = "Astrophysics"),
+        Word(original = "Pulsare", translation = "pulsars", languageCode = "DE", category = "Astrophysics"),
+        Word(original = "Gammastrahlenausbrüche", translation = "gamma-ray bursts", languageCode = "DE", category = "Astrophysics"),
+        Word(original = "Exoplaneten", translation = "exoplanets", languageCode = "DE", category = "Astrophysics"),
+        Word(original = "Akkretionsscheiben", translation = "accretion disks", languageCode = "DE", category = "Astrophysics"),
+        Word(original = "Gravitationslinsen", translation = "gravitational lensing", languageCode = "DE", category = "Astrophysics"),
+        Word(original = "Astrophysikalische Instrumente", translation = "astrophysical instruments", languageCode = "DE", category = "Astrophysics"),
+        
+        // Advanced Geophysics
+        Word(original = "Geophysik", translation = "geophysics", languageCode = "DE", category = "Geophysics"),
+        Word(original = "Seismologie", translation = "seismology", languageCode = "DE", category = "Geophysics"),
+        Word(original = "Geomagnetismus", translation = "geomagnetism", languageCode = "DE", category = "Geophysics"),
+        Word(original = "Geothermie", translation = "geothermal energy", languageCode = "DE", category = "Geophysics"),
+        Word(original = "Plattentektonik", translation = "plate tectonics", languageCode = "DE", category = "Geophysics"),
+        Word(original = "Erdbebenforschung", translation = "earthquake research", languageCode = "DE", category = "Geophysics"),
+        Word(original = "Geophysikalische Prospektion", translation = "geophysical prospecting", languageCode = "DE", category = "Geophysics"),
+        Word(original = "Gravimetrie", translation = "gravimetry", languageCode = "DE", category = "Geophysics"),
+        Word(original = "Magnetotellurik", translation = "magnetotellurics", languageCode = "DE", category = "Geophysics"),
+        Word(original = "Geodynamik", translation = "geodynamics", languageCode = "DE", category = "Geophysics"),
+        
+        // Advanced Oceanography
+        Word(original = "Ozeanographie", translation = "oceanography", languageCode = "DE", category = "Oceanography"),
+        Word(original = "Physische Ozeanographie", translation = "physical oceanography", languageCode = "DE", category = "Oceanography"),
+        Word(original = "Chemische Ozeanographie", translation = "chemical oceanography", languageCode = "DE", category = "Oceanography"),
+        Word(original = "Biologische Ozeanographie", translation = "biological oceanography", languageCode = "DE", category = "Oceanography"),
+        Word(original = "Geologische Ozeanographie", translation = "geological oceanography", languageCode = "DE", category = "Oceanography"),
+        Word(original = "Meeresströmungen", translation = "ocean currents", languageCode = "DE", category = "Oceanography"),
+        Word(original = "Gezeiten", translation = "tides", languageCode = "DE", category = "Oceanography"),
+        Word(original = "Meeresschichten", translation = "ocean layers", languageCode = "DE", category = "Oceanography"),
+        Word(original = "Ozeanische Zirkulation", translation = "oceanic circulation", languageCode = "DE", category = "Oceanography"),
+        Word(original = "Meeresforschungsschiffe", translation = "oceanographic research vessels", languageCode = "DE", category = "Oceanography"),
+        
+        // Advanced Meteorology
+        Word(original = "Meteorologie", translation = "meteorology", languageCode = "DE", category = "Meteorology"),
+        Word(original = "Atmosphärische Dynamik", translation = "atmospheric dynamics", languageCode = "DE", category = "Meteorology"),
+        Word(original = "Wettervorhersage", translation = "weather forecasting", languageCode = "DE", category = "Meteorology"),
+        Word(original = "Klimadiagnostik", translation = "climate diagnostics", languageCode = "DE", category = "Meteorology"),
+        Word(original = "Atmosphärische Chemie", translation = "atmospheric chemistry", languageCode = "DE", category = "Meteorology"),
+        Word(original = "Numerische Wettervorhersage", translation = "numerical weather prediction", languageCode = "DE", category = "Meteorology"),
+        Word(original = "Satellitenmeteorologie", translation = "satellite meteorology", languageCode = "DE", category = "Meteorology"),
+        Word(original = "Radarmeteorologie", translation = "radar meteorology", languageCode = "DE", category = "Meteorology"),
+        Word(original = "Mesoskalige Meteorologie", translation = "mesoscale meteorology", languageCode = "DE", category = "Meteorology"),
+        Word(original = "Synoptische Meteorologie", translation = "synoptic meteorology", languageCode = "DE", category = "Meteorology"),
+        
+        // Advanced Volcanology
+        Word(original = "Vulkanologie", translation = "volcanology", languageCode = "DE", category = "Volcanology"),
+        Word(original = "Magmakammer", translation = "magma chamber", languageCode = "DE", category = "Volcanology"),
+        Word(original = "Vulkanische Eruptionen", translation = "volcanic eruptions", languageCode = "DE", category = "Volcanology"),
+        Word(original = "Pyroklastische Ströme", translation = "pyroclastic flows", languageCode = "DE", category = "Volcanology"),
+        Word(original = "Lahare", translation = "lahars", languageCode = "DE", category = "Volcanology"),
+        Word(original = "Vulkanische Gasemissionen", translation = "volcanic gas emissions", languageCode = "DE", category = "Volcanology"),
+        Word(original = "Vulkanische Asche", translation = "volcanic ash", languageCode = "DE", category = "Volcanology"),
+        Word(original = "Vulkanische Gefahren", translation = "volcanic hazards", languageCode = "DE", category = "Volcanology"),
+        Word(original = "Vulkanische Überwachung", translation = "volcanic monitoring", languageCode = "DE", category = "Volcanology"),
+        Word(original = "Vulkanische Petrologie", translation = "volcanic petrology", languageCode = "DE", category = "Volcanology"),
+        
+        // Advanced Glaciology
+        Word(original = "Gletscherkunde", translation = "glaciology", languageCode = "DE", category = "Glaciology"),
+        Word(original = "Eisschelfe", translation = "ice shelves", languageCode = "DE", category = "Glaciology"),
+        Word(original = "Gletscherbewegung", translation = "glacier movement", languageCode = "DE", category = "Glaciology"),
+        Word(original = "Eismassenbilanz", translation = "ice mass balance", languageCode = "DE", category = "Glaciology"),
+        Word(original = "Permafrost", translation = "permafrost", languageCode = "DE", category = "Glaciology"),
+        Word(original = "Gletscherhydrologie", translation = "glacier hydrology", languageCode = "DE", category = "Glaciology"),
+        Word(original = "Eisbohrkerne", translation = "ice cores", languageCode = "DE", category = "Glaciology"),
+        Word(original = "Gletschermechanik", translation = "glacier mechanics", languageCode = "DE", category = "Glaciology"),
+        Word(original = "Gletscherterminologie", translation = "glacial terminology", languageCode = "DE", category = "Glaciology"),
+        Word(original = "Klimaindikatoren aus Eis", translation = "climate indicators from ice", languageCode = "DE", category = "Glaciology"),
+        
+        // Advanced Hydrology
+        Word(original = "Hydrologie", translation = "hydrology", languageCode = "DE", category = "Hydrology"),
+        Word(original = "Wasserkreislauf", translation = "water cycle", languageCode = "DE", category = "Hydrology"),
+        Word(original = "Grundwasser", translation = "groundwater", languageCode = "DE", category = "Hydrology"),
+        Word(original = "Oberflächenwasser", translation = "surface water", languageCode = "DE", category = "Hydrology"),
+        Word(original = "Hydrologische Modellierung", translation = "hydrological modeling", languageCode = "DE", category = "Hydrology"),
+        Word(original = "Flussmorphologie", translation = "river morphology", languageCode = "DE", category = "Hydrology"),
+        Word(original = "Hochwasserforschung", translation = "flood research", languageCode = "DE", category = "Hydrology"),
+        Word(original = "Wassermanagement", translation = "water management", languageCode = "DE", category = "Hydrology"),
+        Word(original = "Hydrologische Daten", translation = "hydrological data", languageCode = "DE", category = "Hydrology"),
+        Word(original = "Wasserressourcen", translation = "water resources", languageCode = "DE", category = "Hydrology"),
+        
+        // Advanced Mineralogy
+        Word(original = "Mineralogie", translation = "mineralogy", languageCode = "DE", category = "Mineralogy"),
+        Word(original = "Kristallographie", translation = "crystallography", languageCode = "DE", category = "Mineralogy"),
+        Word(original = "Mineralbildung", translation = "mineral formation", languageCode = "DE", category = "Mineralogy"),
+        Word(original = "Mineralparagenese", translation = "mineral paragenesis", languageCode = "DE", category = "Mineralogy"),
+        Word(original = "Mineralidentifikation", translation = "mineral identification", languageCode = "DE", category = "Mineralogy"),
+        Word(original = "Mineralchemie", translation = "mineral chemistry", languageCode = "DE", category = "Mineralogy"),
+        Word(original = "Mineralphysik", translation = "mineral physics", languageCode = "DE", category = "Mineralogy"),
+        Word(original = "Mineraloptik", translation = "mineral optics", languageCode = "DE", category = "Mineralogy"),
+        Word(original = "Mineralverbreitung", translation = "mineral distribution", languageCode = "DE", category = "Mineralogy"),
+        Word(original = "Mineralressourcen", translation = "mineral resources", languageCode = "DE", category = "Mineralogy"),
+        
+        // Advanced Petrology
+        Word(original = "Petrologie", translation = "petrology", languageCode = "DE", category = "Petrology"),
+        Word(original = "Magmatite", translation = "magmatic rocks", languageCode = "DE", category = "Petrology"),
+        Word(original = "Metamorphite", translation = "metamorphic rocks", languageCode = "DE", category = "Petrology"),
+        Word(original = "Sedimentgesteine", translation = "sedimentary rocks", languageCode = "DE", category = "Petrology"),
+        Word(original = "Gesteinszyklus", translation = "rock cycle", languageCode = "DE", category = "Petrology"),
+        Word(original = "Petrographie", translation = "petrography", languageCode = "DE", category = "Petrology"),
+        Word(original = "Gesteinsbildungsprozesse", translation = "rock formation processes", languageCode = "DE", category = "Petrology"),
+        Word(original = "Gesteinsmikroskopie", translation = "rock microscopy", languageCode = "DE", category = "Petrology"),
+        Word(original = "Gesteinsgeochemie", translation = "rock geochemistry", languageCode = "DE", category = "Petrology"),
+        Word(original = "Gesteinsklassifikation", translation = "rock classification", languageCode = "DE", category = "Petrology"),
+        
+        // Advanced Geochemistry
+        Word(original = "Geochemie", translation = "geochemistry", languageCode = "DE", category = "Geochemistry"),
+        Word(original = "Isotopengeochemie", translation = "isotope geochemistry", languageCode = "DE", category = "Geochemistry"),
+        Word(original = "Organische Geochemie", translation = "organic geochemistry", languageCode = "DE", category = "Geochemistry"),
+        Word(original = "Anorganische Geochemie", translation = "inorganic geochemistry", languageCode = "DE", category = "Geochemistry"),
+        Word(original = "Geochemische Zyklen", translation = "geochemical cycles", languageCode = "DE", category = "Geochemistry"),
+        Word(original = "Geochemische Modellierung", translation = "geochemical modeling", languageCode = "DE", category = "Geochemistry"),
+        Word(original = "Geochemische Probenahme", translation = "geochemical sampling", languageCode = "DE", category = "Geochemistry"),
+        Word(original = "Geochemische Analyse", translation = "geochemical analysis", languageCode = "DE", category = "Geochemistry"),
+        Word(original = "Geochemische Prozesse", translation = "geochemical processes", languageCode = "DE", category = "Geochemistry"),
+        Word(original = "Geochemische Datierung", translation = "geochemical dating", languageCode = "DE", category = "Geochemistry"),
+        
+        // Advanced Structural Geology
+        Word(original = "StrukturGeologie", translation = "structural geology", languageCode = "DE", category = "StructuralGeology"),
+        Word(original = "Tektonik", translation = "tectonics", languageCode = "DE", category = "StructuralGeology"),
+        Word(original = "Faltenbildung", translation = "fold formation", languageCode = "DE", category = "StructuralGeology"),
+        Word(original = "Verwerfungen", translation = "faults", languageCode = "DE", category = "StructuralGeology"),
+        Word(original = "Brüche", translation = "fractures", languageCode = "DE", category = "StructuralGeology"),
+        Word(original = "Schichtung", translation = "stratification", languageCode = "DE", category = "StructuralGeology"),
+        Word(original = "Geologische Karten", translation = "geological maps", languageCode = "DE", category = "StructuralGeology"),
+        Word(original = "Strukturgeologische Analyse", translation = "structural analysis", languageCode = "DE", category = "StructuralGeology"),
+        Word(original = "Deformationsmechanismen", translation = "deformation mechanisms", languageCode = "DE", category = "StructuralGeology"),
+        Word(original = "Spannungsfelder", translation = "stress fields", languageCode = "DE", category = "StructuralGeology"),
+        
+        // Advanced Sedimentology
+        Word(original = "Sedimentologie", translation = "sedimentology", languageCode = "DE", category = "Sedimentology"),
+        Word(original = "Sedimenttransport", translation = "sediment transport", languageCode = "DE", category = "Sedimentology"),
+        Word(original = "Sedimentationsprozesse", translation = "sedimentation processes", languageCode = "DE", category = "Sedimentology"),
+        Word(original = "Sedimentfazies", translation = "sediment facies", languageCode = "DE", category = "Sedimentology"),
+        Word(original = "Sedimentäre Umgebungen", translation = "sedimentary environments", languageCode = "DE", category = "Sedimentology"),
+        Word(original = "Sedimentäre Strukturen", translation = "sedimentary structures", languageCode = "DE", category = "Sedimentology"),
+        Word(original = "Sedimentäre Becken", translation = "sedimentary basins", languageCode = "DE", category = "Sedimentology"),
+        Word(original = "Sedimentäre Zyklen", translation = "sedimentary cycles", languageCode = "DE", category = "Sedimentology"),
+        Word(original = "Sedimentäre Fossilien", translation = "sedimentary fossils", languageCode = "DE", category = "Sedimentology"),
+        Word(original = "Sedimentäre Ablagerung", translation = "sedimentary deposition", languageCode = "DE", category = "Sedimentology"),
+        
+        // Advanced Paleontology
+        Word(original = "Paläontologie", translation = "paleontology", languageCode = "DE", category = "Paleontology"),
+        Word(original = "Fossilien", translation = "fossils", languageCode = "DE", category = "Paleontology"),
+        Word(original = "Mikropaläontologie", translation = "micropaleontology", languageCode = "DE", category = "Paleontology"),
+        Word(original = "Wirbeltierpaläontologie", translation = "vertebrate paleontology", languageCode = "DE", category = "Paleontology"),
+        Word(original = "Wirbellosenpaläontologie", translation = "invertebrate paleontology", languageCode = "DE", category = "Paleontology"),
+        Word(original = "Pflanzenpaläontologie", translation = "paleobotany", languageCode = "DE", category = "Paleontology"),
+        Word(original = "Paläoökologie", translation = "paleoecology", languageCode = "DE", category = "Paleontology"),
+        Word(original = "Evolutionäre Paläontologie", translation = "evolutionary paleontology", languageCode = "DE", category = "Paleontology"),
+        Word(original = "Biostratigraphie", translation = "biostratigraphy", languageCode = "DE", category = "Paleontology"),
+        Word(original = "Paläoklimatologie", translation = "paleoclimatology", languageCode = "DE", category = "Paleontology"),
+        
+        // Advanced Stratigraphy
+        Word(original = "Stratigraphie", translation = "stratigraphy", languageCode = "DE", category = "Stratigraphy"),
+        Word(original = "Lithostratigraphie", translation = "lithostratigraphy", languageCode = "DE", category = "Stratigraphy"),
+        Word(original = "Chronostratigraphie", translation = "chronostratigraphy", languageCode = "DE", category = "Stratigraphy"),
+        Word(original = "Biostratigraphie", translation = "biostratigraphy", languageCode = "DE", category = "Stratigraphy"),
+        Word(original = "Magnetostratigraphie", translation = "magnetostratigraphy", languageCode = "DE", category = "Stratigraphy"),
+        Word(original = "Sequenzstratigraphie", translation = "sequence stratigraphy", languageCode = "DE", category = "Stratigraphy"),
+        Word(original = "Stratigraphische Korrelation", translation = "stratigraphic correlation", languageCode = "DE", category = "Stratigraphy"),
+        Word(original = "Stratigraphische Einheiten", translation = "stratigraphic units", languageCode = "DE", category = "Stratigraphy"),
+        Word(original = "Stratigraphische Methoden", translation = "stratigraphic methods", languageCode = "DE", category = "Stratigraphy"),
+        Word(original = "Stratigraphische Zeitmessung", translation = "stratigraphic time measurement", languageCode = "DE", category = "Stratigraphy"),
+        
+        // Advanced Economic Geology
+        Word(original = "Wirtschaftsgeologie", translation = "economic geology", languageCode = "DE", category = "EconomicGeology"),
+        Word(original = "Erzvorkommen", translation = "ore deposits", languageCode = "DE", category = "EconomicGeology"),
+        Word(original = "Bergbau", translation = "mining", languageCode = "DE", category = "EconomicGeology"),
+        Word(original = "Rohstoffexploration", translation = "resource exploration", languageCode = "DE", category = "EconomicGeology"),
+        Word(original = "Geologische Risikobewertung", translation = "geological risk assessment", languageCode = "DE", category = "EconomicGeology"),
+        Word(original = "Reservoirgeologie", translation = "reservoir geology", languageCode = "DE", category = "EconomicGeology"),
+        Word(original = "Geologische Lagerstätten", translation = "geological deposits", languageCode = "DE", category = "EconomicGeology"),
+        Word(original = "Explorationsgeologie", translation = "exploration geology", languageCode = "DE", category = "EconomicGeology"),
+        Word(original = "Bergbauingenieurwesen", translation = "mining engineering", languageCode = "DE", category = "EconomicGeology"),
+        Word(original = "Geologische Bewertung", translation = "geological evaluation", languageCode = "DE", category = "EconomicGeology"),
+        
+        // Advanced Environmental Geology
+        Word(original = "Umweltgeologie", translation = "environmental geology", languageCode = "DE", category = "EnvironmentalGeology"),
+        Word(original = "Geologische Gefahren", translation = "geological hazards", languageCode = "DE", category = "EnvironmentalGeology"),
+        Word(original = "Bodenmechanik", translation = "soil mechanics", languageCode = "DE", category = "EnvironmentalGeology"),
+        Word(original = "Grundwasserhydrologie", translation = "groundwater hydrology", languageCode = "DE", category = "EnvironmentalGeology"),
+        Word(original = "Umweltüberwachung", translation = "environmental monitoring", languageCode = "DE", category = "EnvironmentalGeology"),
+        Word(original = "Altlasten", translation = "contaminated sites", languageCode = "DE", category = "EnvironmentalGeology"),
+        Word(original = "Geologische Restaurierung", translation = "geological restoration", languageCode = "DE", category = "EnvironmentalGeology"),
+        Word(original = "Umweltgeophysik", translation = "environmental geophysics", languageCode = "DE", category = "EnvironmentalGeology"),
+        Word(original = "Geologische Auswirkungen", translation = "geological impacts", languageCode = "DE", category = "EnvironmentalGeology"),
+        Word(original = "Nachhaltige Geologie", translation = "sustainable geology", languageCode = "DE", category = "EnvironmentalGeology"),
+        
+        // Advanced Engineering Geology
+        Word(original = "Ingenieurgeologie", translation = "engineering geology", languageCode = "DE", category = "EngineeringGeology"),
+        Word(original = "Felsmechanik", translation = "rock mechanics", languageCode = "DE", category = "EngineeringGeology"),
+        Word(original = "Geotechnik", translation = "geotechnical engineering", languageCode = "DE", category = "EngineeringGeology"),
+        Word(original = "Fundamentuntersuchung", translation = "foundation investigation", languageCode = "DE", category = "EngineeringGeology"),
+        Word(original = "Hangstabilität", translation = "slope stability", languageCode = "DE", category = "EngineeringGeology"),
+        Word(original = "Tunnelbau", translation = "tunnel construction", languageCode = "DE", category = "EngineeringGeology"),
+        Word(original = "Dammgeologie", translation = "dam geology", languageCode = "DE", category = "EngineeringGeology"),
+        Word(original = "Baugrunduntersuchung", translation = "subsurface investigation", languageCode = "DE", category = "EngineeringGeology"),
+        Word(original = "Geologische Bauplanung", translation = "geological construction planning", languageCode = "DE", category = "EngineeringGeology"),
+        Word(original = "Ingenieurgeologische Beratung", translation = "engineering geological consulting", languageCode = "DE", category = "EngineeringGeology"),
+        
+        // Advanced Remote Sensing
+        Word(original = "Fernerkundung", translation = "remote sensing", languageCode = "DE", category = "RemoteSensing"),
+        Word(original = "Satellitenfernerkundung", translation = "satellite remote sensing", languageCode = "DE", category = "RemoteSensing"),
+        Word(original = "Luftbildauswertung", translation = "aerial photo interpretation", languageCode = "DE", category = "RemoteSensing"),
+        Word(original = "Multispektrale Bildgebung", translation = "multispectral imaging", languageCode = "DE", category = "RemoteSensing"),
+        Word(original = "Hyperspektrale Bildgebung", translation = "hyperspectral imaging", languageCode = "DE", category = "RemoteSensing"),
+        Word(original = "Radarfernerkundung", translation = "radar remote sensing", languageCode = "DE", category = "RemoteSensing"),
+        Word(original = "LiDAR-Technologie", translation = "LiDAR technology", languageCode = "DE", category = "RemoteSensing"),
+        Word(original = "Geoinformationssysteme", translation = "geographic information systems", languageCode = "DE", category = "RemoteSensing"),
+        Word(original = "Bodenspektroskopie", translation = "ground spectroscopy", languageCode = "DE", category = "RemoteSensing"),
+        Word(original = "Fernerkundungsdatenanalyse", translation = "remote sensing data analysis", languageCode = "DE", category = "RemoteSensing"),
+        
+        // Advanced Geographic Information Systems
+        Word(original = "Geoinformationssysteme", translation = "geographic information systems", languageCode = "DE", category = "GIS"),
+        Word(original = "Räumliche Analyse", translation = "spatial analysis", languageCode = "DE", category = "GIS"),
+        Word(original = "Kartographie", translation = "cartography", languageCode = "DE", category = "GIS"),
+        Word(original = "Geodatenbanken", translation = "geodatabases", languageCode = "DE", category = "GIS"),
+        Word(original = "Räumliche Modellierung", translation = "spatial modeling", languageCode = "DE", category = "GIS"),
+        Word(original = "Geostatistik", translation = "geostatistics", languageCode = "DE", category = "GIS"),
+        Word(original = "Digitale Geländemodelle", translation = "digital terrain models", languageCode = "DE", category = "GIS"),
+        Word(original = "Räumliche Dateninfrastruktur", translation = "spatial data infrastructure", languageCode = "DE", category = "GIS"),
+        Word(original = "Web-basierte GIS", translation = "web-based GIS", languageCode = "DE", category = "GIS"),
+        Word(original = "Mobile GIS-Anwendungen", translation = "mobile GIS applications", languageCode = "DE", category = "GIS"),
+        
+        // Advanced Surveying and Geodesy
+        Word(original = "Vermessungskunde", translation = "surveying", languageCode = "DE", category = "Surveying"),
+        Word(original = "Geodäsie", translation = "geodesy", languageCode = "DE", category = "Surveying"),
+        Word(original = "GNSS-Vermessung", translation = "GNSS surveying", languageCode = "DE", category = "Surveying"),
+        Word(original = "Laserscanning", translation = "laser scanning", languageCode = "DE", category = "Surveying"),
+        Word(original = "Photogrammetrie", translation = "photogrammetry", languageCode = "DE", category = "Surveying"),
+        Word(original = "Höhenmessung", translation = "height measurement", languageCode = "DE", category = "Surveying"),
+        Word(original = "Lagebestimmung", translation = "position determination", languageCode = "DE", category = "Surveying"),
+        Word(original = "Vermessungsnetze", translation = "survey networks", languageCode = "DE", category = "Surveying"),
+        Word(original = "Katastervermessung", translation = "cadastral surveying", languageCode = "DE", category = "Surveying"),
+        Word(original = "Vermessungsinstrumente", translation = "surveying instruments", languageCode = "DE", category = "Surveying"),
+        
+        // Advanced Cartography
+        Word(original = "Kartographie", translation = "cartography", languageCode = "DE", category = "Cartography"),
+        Word(original = "Thematische Kartographie", translation = "thematic cartography", languageCode = "DE", category = "Cartography"),
+        Word(original = "Topographische Karten", translation = "topographic maps", languageCode = "DE", category = "Cartography"),
+        Word(original = "Kartenprojektionen", translation = "map projections", languageCode = "DE", category = "Cartography"),
+        Word(original = "Kartensymbologie", translation = "map symbology", languageCode = "DE", category = "Cartography"),
+        Word(original = "Kartenlegende", translation = "map legend", languageCode = "DE", category = "Cartography"),
+        Word(original = "Kartenverallgemeinerung", translation = "map generalization", languageCode = "DE", category = "Cartography"),
+        Word(original = "Digitale Kartographie", translation = "digital cartography", languageCode = "DE", category = "Cartography"),
+        Word(original = "Interaktive Karten", translation = "interactive maps", languageCode = "DE", category = "Cartography"),
+        Word(original = "Kartenherstellung", translation = "map production", languageCode = "DE", category = "Cartography"),
+        
+        // Advanced Geomatics
+        Word(original = "Geomatik", translation = "geomatics", languageCode = "DE", category = "Geomatics"),
+        Word(original = "Geoinformatik", translation = "geoinformatics", languageCode = "DE", category = "Geomatics"),
+        Word(original = "Raumbezogene Informationssysteme", translation = "spatial information systems", languageCode = "DE", category = "Geomatics"),
+        Word(original = "Geodatenmanagement", translation = "geodata management", languageCode = "DE", category = "Geomatics"),
+        Word(original = "Geodatenstandards", translation = "geodata standards", languageCode = "DE", category = "Geomatics"),
+        Word(original = "Geodatenqualität", translation = "geodata quality", languageCode = "DE", category = "Geomatics"),
+        Word(original = "Geodatenintegration", translation = "geodata integration", languageCode = "DE", category = "Geomatics"),
+        Word(original = "Geodatenvisualisierung", translation = "geodata visualization", languageCode = "DE", category = "Geomatics"),
+        Word(original = "Geodatenverarbeitung", translation = "geodata processing", languageCode = "DE", category = "Geomatics"),
+        Word(original = "Geodateninfrastruktur", translation = "geospatial data infrastructure", languageCode = "DE", category = "Geomatics"),
+        
+        // Advanced Soil Science
+        Word(original = "Bodenkunde", translation = "soil science", languageCode = "DE", category = "SoilScience"),
+        Word(original = "Bodenbildung", translation = "soil formation", languageCode = "DE", category = "SoilScience"),
+        Word(original = "Bodenklassifikation", translation = "soil classification", languageCode = "DE", category = "SoilScience"),
+        Word(original = "Bodenphysik", translation = "soil physics", languageCode = "DE", category = "SoilScience"),
+        Word(original = "Bodenchemie", translation = "soil chemistry", languageCode = "DE", category = "SoilScience"),
+        Word(original = "Bodenbiologie", translation = "soil biology", languageCode = "DE", category = "SoilScience"),
+        Word(original = "Bodenerosion", translation = "soil erosion", languageCode = "DE", category = "SoilScience"),
+        Word(original = "Bodenfruchtbarkeit", translation = "soil fertility", languageCode = "DE", category = "SoilScience"),
+        Word(original = "Bodenschutz", translation = "soil conservation", languageCode = "DE", category = "SoilScience"),
+        Word(original = "Bodenbearbeitung", translation = "soil cultivation", languageCode = "DE", category = "SoilScience"),
+        
+        // Advanced Agronomy
+        Word(original = "Agrarwissenschaften", translation = "agronomy", languageCode = "DE", category = "Agronomy"),
+        Word(original = "Pflanzenbau", translation = "crop production", languageCode = "DE", category = "Agronomy"),
+        Word(original = "Ackerbau", translation = "arable farming", languageCode = "DE", category = "Agronomy"),
+        Word(original = "Pflanzenzüchtung", translation = "plant breeding", languageCode = "DE", category = "Agronomy"),
+        Word(original = "Düngung", translation = "fertilization", languageCode = "DE", category = "Agronomy"),
+        Word(original = "Pflanzenschutz", translation = "plant protection", languageCode = "DE", category = "Agronomy"),
+        Word(original = "Ertragssteigerung", translation = "yield improvement", languageCode = "DE", category = "Agronomy"),
+        Word(original = "Nachhaltige Landwirtschaft", translation = "sustainable agriculture", languageCode = "DE", category = "Agronomy"),
+        Word(original = "Präzisionslandwirtschaft", translation = "precision agriculture", languageCode = "DE", category = "Agronomy"),
+        Word(original = "Agrarökonomie", translation = "agricultural economics", languageCode = "DE", category = "Agronomy"),
+        
+        // Advanced Forestry
+        Word(original = "Forstwirtschaft", translation = "forestry", languageCode = "DE", category = "Forestry"),
+        Word(original = "Waldbau", translation = "forest management", languageCode = "DE", category = "Forestry"),
+        Word(original = "Baumartenkunde", translation = "tree species knowledge", languageCode = "DE", category = "Forestry"),
+        Word(original = "Forstliche Ertragstheorie", translation = "forest yield theory", languageCode = "DE", category = "Forestry"),
+        Word(original = "Holzernte", translation = "timber harvesting", languageCode = "DE", category = "Forestry"),
+        Word(original = "Waldschutz", translation = "forest protection", languageCode = "DE", category = "Forestry"),
+        Word(original = "Forstliche Planung", translation = "forest planning", languageCode = "DE", category = "Forestry"),
+        Word(original = "Forstliche Betriebswirtschaft", translation = "forest business management", languageCode = "DE", category = "Forestry"),
+        Word(original = "Waldökologie", translation = "forest ecology", languageCode = "DE", category = "Forestry"),
+        Word(original = "Nachhaltige Forstwirtschaft", translation = "sustainable forestry", languageCode = "DE", category = "Forestry"),
+        
+        // Advanced Horticulture
+        Word(original = "Gartenbau", translation = "horticulture", languageCode = "DE", category = "Horticulture"),
+        Word(original = "Obstbau", translation = "fruit growing", languageCode = "DE", category = "Horticulture"),
+        Word(original = "Gemüsebau", translation = "vegetable growing", languageCode = "DE", category = "Horticulture"),
+        Word(original = "Zierpflanzenbau", translation = "ornamental plant cultivation", languageCode = "DE", category = "Horticulture"),
+        Word(original = "Gewächshauswirtschaft", translation = "greenhouse management", languageCode = "DE", category = "Horticulture"),
+        Word(original = "Baumschulwesen", translation = "nursery management", languageCode = "DE", category = "Horticulture"),
+        Word(original = "Pflanzenvermehrung", translation = "plant propagation", languageCode = "DE", category = "Horticulture"),
+        Word(original = "Gartenlandschaftsbau", translation = "landscape gardening", languageCode = "DE", category = "Horticulture"),
+        Word(original = "Stadtgrün", translation = "urban green spaces", languageCode = "DE", category = "Horticulture"),
+        Word(original = "Hortikulturelle Technologie", translation = "horticultural technology", languageCode = "DE", category = "Horticulture"),
+        
+        // Advanced Animal Science
+        Word(original = "Tierwissenschaften", translation = "animal science", languageCode = "DE", category = "AnimalScience"),
+        Word(original = "Tierzucht", translation = "animal breeding", languageCode = "DE", category = "AnimalScience"),
+        Word(original = "Tierernährung", translation = "animal nutrition", languageCode = "DE", category = "AnimalScience"),
+        Word(original = "Tiergesundheit", translation = "animal health", languageCode = "DE", category = "AnimalScience"),
+        Word(original = "Tierhaltungssysteme", translation = "livestock systems", languageCode = "DE", category = "AnimalScience"),
+        Word(original = "Milchviehwirtschaft", translation = "dairy farming", languageCode = "DE", category = "AnimalScience"),
+        Word(original = "Fleischproduktion", translation = "meat production", languageCode = "DE", category = "AnimalScience"),
+        Word(original = "Tierverhalten", translation = "animal behavior", languageCode = "DE", category = "AnimalScience"),
+        Word(original = "Tierwohl", translation = "animal welfare", languageCode = "DE", category = "AnimalScience"),
+        Word(original = "Veterinärmedizin", translation = "veterinary medicine", languageCode = "DE", category = "AnimalScience"),
+        
+        // Additional Quantum Computing terms
+        Word(original = "Quantenverschränkung", translation = "quantum entanglement", languageCode = "DE", category = "Quantum"),
+        Word(original = "Quantenüberlagerung", translation = "quantum superposition", languageCode = "DE", category = "Quantum"),
+        Word(original = "Quantendekohärenz", translation = "quantum decoherence", languageCode = "DE", category = "Quantum"),
+        Word(original = "Quantenmessung", translation = "quantum measurement", languageCode = "DE", category = "Quantum"),
+        Word(original = "Quantenbits", translation = "qubits", languageCode = "DE", category = "Quantum"),
+        
+        // Additional AI/Machine Learning terms
+        Word(original = "Neuronale Architektur-Suche", translation = "neural architecture search", languageCode = "DE", category = "AI"),
+        Word(original = "Few-Shot Learning", translation = "few-shot learning", languageCode = "DE", category = "AI"),
+        Word(original = "Transferlernen", translation = "transfer learning", languageCode = "DE", category = "AI"),
+        Word(original = "AutoML", translation = "automated machine learning", languageCode = "DE", category = "AI"),
+        Word(original = "Federated Learning", translation = "federated learning", languageCode = "DE", category = "AI"),
+        
+        // Additional Biotechnology terms
+        Word(original = "Synthetische Biologie", translation = "synthetic biology", languageCode = "DE", category = "Biotech"),
+        Word(original = "Metagenomik", translation = "metagenomics", languageCode = "DE", category = "Biotech"),
+        Word(original = "Single-Cell-Sequenzierung", translation = "single-cell sequencing", languageCode = "DE", category = "Biotech"),
+        Word(original = "Organoid-Kultur", translation = "organoid culture", languageCode = "DE", category = "Biotech"),
+        Word(original = "Genom-Editing", translation = "genome editing", languageCode = "DE", category = "Biotech"),
+        
+        // Additional Renewable Energy terms
+        Word(original = "Perowskit-Solarzellen", translation = "perovskite solar cells", languageCode = "DE", category = "Energy"),
+        Word(original = "Wasserstoffbrennstoffzellen", translation = "hydrogen fuel cells", languageCode = "DE", category = "Energy"),
+        Word(original = "Offshore-Windkraft", translation = "offshore wind power", languageCode = "DE", category = "Energy"),
+        Word(original = "Geothermische Energie", translation = "geothermal energy", languageCode = "DE", category = "Energy"),
+        Word(original = "Energiespeichersysteme", translation = "energy storage systems", languageCode = "DE", category = "Energy"),
+        
+        // Additional Medical terms
+        Word(original = "Personalisierte Medizin", translation = "personalized medicine", languageCode = "DE", category = "Medical"),
+        Word(original = "Präzisionsonkologie", translation = "precision oncology", languageCode = "DE", category = "Medical"),
+        Word(original = "Telemedizin", translation = "telemedicine", languageCode = "DE", category = "Medical"),
+        Word(original = "Digitale Gesundheitsanwendungen", translation = "digital health applications", languageCode = "DE", category = "Medical"),
+        Word(original = "Künstliche Organe", translation = "artificial organs", languageCode = "DE", category = "Medical"),
+        
+        // Additional Space Technology terms
+        Word(original = "Raumfahrtsysteme", translation = "spacecraft systems", languageCode = "DE", category = "Space"),
+        Word(original = "Marskolonisation", translation = "Mars colonization", languageCode = "DE", category = "Space"),
+        Word(original = "Raumhabitate", translation = "space habitats", languageCode = "DE", category = "Space"),
+        Word(original = "Asteroidenbergbau", translation = "asteroid mining", languageCode = "DE", category = "Space"),
+        Word(original = "Raumfahrtantriebe", translation = "space propulsion", languageCode = "DE", category = "Space"),
+        
+        // Additional Cybersecurity terms
+        Word(original = "Zero Trust Architecture", translation = "zero trust architecture", languageCode = "DE", category = "Cybersecurity"),
+        Word(original = "Blockchain-Sicherheit", translation = "blockchain security", languageCode = "DE", category = "Cybersecurity"),
+        Word(original = "Quantenkryptografie", translation = "quantum cryptography", languageCode = "DE", category = "Cybersecurity"),
+        Word(original = "KI-gestützte Bedrohungserkennung", translation = "AI-powered threat detection", languageCode = "DE", category = "Cybersecurity"),
+        Word(original = "Sicherheitsorchestrierung", translation = "security orchestration", languageCode = "DE", category = "Cybersecurity"),
+        
+        // Additional Robotics terms
+        Word(original = "Autonome Fahrzeuge", translation = "autonomous vehicles", languageCode = "DE", category = "Robotics"),
+        Word(original = "Drohnentechnologie", translation = "drone technology", languageCode = "DE", category = "Robotics"),
+        Word(original = "Humanoide Roboter", translation = "humanoid robots", languageCode = "DE", category = "Robotics"),
+        Word(original = "Robotergestützte Chirurgie", translation = "robotic surgery", languageCode = "DE", category = "Robotics"),
+        Word(original = "Industrierobotik", translation = "industrial robotics", languageCode = "DE", category = "Robotics"),
+        
+        // Additional Materials Science terms
+        Word(original = "Graphen-Anwendungen", translation = "graphene applications", languageCode = "DE", category = "Materials"),
+        Word(original = "Metamaterialien", translation = "metamaterials", languageCode = "DE", category = "Materials"),
+        Word(original = "Selbstheilende Polymere", translation = "self-healing polymers", languageCode = "DE", category = "Materials"),
+        Word(original = "Biomimetische Materialien", translation = "biomimetic materials", languageCode = "DE", category = "Materials"),
+        Word(original = "Intelligente Beschichtungen", translation = "smart coatings", languageCode = "DE", category = "Materials"),
+        
+        // Additional Environmental Science terms
+        Word(original = "Kohlenstoffbindung", translation = "carbon sequestration", languageCode = "DE", category = "Environment"),
+        Word(original = "Biodiversitätsmonitoring", translation = "biodiversity monitoring", languageCode = "DE", category = "Environment"),
+        Word(original = "Kreislaufwirtschaft", translation = "circular economy", languageCode = "DE", category = "Environment"),
+        Word(original = "Umwelt-DNA", translation = "environmental DNA", languageCode = "DE", category = "Environment"),
+        Word(original = "Klimaanpassungsstrategien", translation = "climate adaptation strategies", languageCode = "DE", category = "Environment"),
+        
+        // Additional Nanotechnology terms
+        Word(original = "DNA-Nanotechnologie", translation = "DNA nanotechnology", languageCode = "DE", category = "Nanotech"),
+        Word(original = "Quantenpunkte", translation = "quantum dots", languageCode = "DE", category = "Nanotech"),
+        Word(original = "Nanoroboter", translation = "nanorobots", languageCode = "DE", category = "Nanotech"),
+        Word(original = "Molekulare Maschinen", translation = "molecular machines", languageCode = "DE", category = "Nanotech"),
+        Word(original = "Nanomedizin", translation = "nanomedicine", languageCode = "DE", category = "Nanotech")
     ) + (commonWordsSize()..10000).map { i ->
         Word(
             original = "German $i",
@@ -1899,5 +2336,5 @@ object PrepopulatedData {
         )
     }
 
-    private fun commonWordsSize(): Int = 1898 // Internal marker
+    private fun commonWordsSize(): Int = 2339 // Internal marker
 }
