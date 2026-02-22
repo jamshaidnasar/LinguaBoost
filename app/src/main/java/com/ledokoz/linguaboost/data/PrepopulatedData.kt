@@ -4,7 +4,7 @@ import com.ledokoz.linguaboost.data.model.Word
 
 object PrepopulatedData {
     val commonWords = listOf(
-        // First 100 - Real German Vocabulary
+        // First 100 - Core Vocabulary
         Word(original = "der", translation = "the (masculine)", languageCode = "DE", category = "Articles"),
         Word(original = "die", translation = "the (feminine/plural)", languageCode = "DE", category = "Articles"),
         Word(original = "das", translation = "the (neuter)", languageCode = "DE", category = "Articles"),
@@ -105,7 +105,7 @@ object PrepopulatedData {
         Word(original = "jemand", translation = "someone", languageCode = "DE", category = "Pronouns"),
         Word(original = "niemand", translation = "no one", languageCode = "DE", category = "Pronouns"),
 
-        // 101-200 - More Real German Vocabulary (Food, Travel, Objects)
+        // Next 200 - Specialized Categories
         Word(original = "Essen", translation = "food", languageCode = "DE", category = "Food"),
         Word(original = "Trinken", translation = "drink", languageCode = "DE", category = "Food"),
         Word(original = "Brot", translation = "bread", languageCode = "DE", category = "Food"),
@@ -121,6 +121,11 @@ object PrepopulatedData {
         Word(original = "Ei", translation = "egg", languageCode = "DE", category = "Food"),
         Word(original = "Zucker", translation = "sugar", languageCode = "DE", category = "Food"),
         Word(original = "Salz", translation = "salt", languageCode = "DE", category = "Food"),
+        Word(original = "Flasche", translation = "bottle", languageCode = "DE", category = "Food"),
+        Word(original = "Gabel", translation = "fork", languageCode = "DE", category = "Food"),
+        Word(original = "Löffel", translation = "spoon", languageCode = "DE", category = "Food"),
+        Word(original = "Messer", translation = "knife", languageCode = "DE", category = "Food"),
+        Word(original = "Teller", translation = "plate", languageCode = "DE", category = "Food"),
 
         Word(original = "Auto", translation = "car", languageCode = "DE", category = "Travel"),
         Word(original = "Zug", translation = "train", languageCode = "DE", category = "Travel"),
@@ -132,6 +137,11 @@ object PrepopulatedData {
         Word(original = "Reise", translation = "journey / trip", languageCode = "DE", category = "Travel"),
         Word(original = "Urlaub", translation = "vacation", languageCode = "DE", category = "Travel"),
         Word(original = "Hotel", translation = "hotel", languageCode = "DE", category = "Travel"),
+        Word(original = "Gepäck", translation = "luggage", languageCode = "DE", category = "Travel"),
+        Word(original = "Pass", translation = "passport", languageCode = "DE", category = "Travel"),
+        Word(original = "Karte", translation = "map", languageCode = "DE", category = "Travel"),
+        Word(original = "Flug", translation = "flight", languageCode = "DE", category = "Travel"),
+        Word(original = "Taxi", translation = "taxi", languageCode = "DE", category = "Travel"),
 
         Word(original = "Tisch", translation = "table", languageCode = "DE", category = "Objects"),
         Word(original = "Stuhl", translation = "chair", languageCode = "DE", category = "Objects"),
@@ -144,18 +154,25 @@ object PrepopulatedData {
         Word(original = "Papier", translation = "paper", languageCode = "DE", category = "Objects"),
         Word(original = "Handy", translation = "mobile phone", languageCode = "DE", category = "Objects"),
         Word(original = "Computer", translation = "computer", languageCode = "DE", category = "Objects"),
+        Word(original = "Schlüssel", translation = "key", languageCode = "DE", category = "Objects"),
+        Word(original = "Tasche", translation = "bag", languageCode = "DE", category = "Objects"),
+        Word(original = "Brille", translation = "glasses", languageCode = "DE", category = "Objects"),
+        Word(original = "Uhr", translation = "watch / clock", languageCode = "DE", category = "Objects"),
 
-        Word(original = "Morgen", translation = "morning", languageCode = "DE", category = "Time"),
-        Word(original = "Mittag", translation = "noon", languageCode = "DE", category = "Time"),
-        Word(original = "Abend", translation = "evening", languageCode = "DE", category = "Time"),
-        Word(original = "Nacht", translation = "night", languageCode = "DE", category = "Time"),
-        Word(original = "heute", translation = "today", languageCode = "DE", category = "Time"),
-        Word(original = "morgen", translation = "tomorrow", languageCode = "DE", category = "Time"),
-        Word(original = "gestern", translation = "yesterday", languageCode = "DE", category = "Time"),
-        Word(original = "Woche", translation = "week", languageCode = "DE", category = "Time"),
-        Word(original = "Monat", translation = "month", languageCode = "DE", category = "Time"),
-        Word(original = "Stunde", translation = "hour", languageCode = "DE", category = "Time"),
-        Word(original = "Minute", translation = "minute", languageCode = "DE", category = "Time"),
+        Word(original = "Kopf", translation = "head", languageCode = "DE", category = "Health"),
+        Word(original = "Körper", translation = "body", languageCode = "DE", category = "Health"),
+        Word(original = "Arm", translation = "arm", languageCode = "DE", category = "Health"),
+        Word(original = "Bein", translation = "leg", languageCode = "DE", category = "Health"),
+        Word(original = "Fuß", translation = "foot", languageCode = "DE", category = "Health"),
+        Word(original = "Herz", translation = "heart", languageCode = "DE", category = "Health"),
+        Word(original = "Blut", translation = "blood", languageCode = "DE", category = "Health"),
+        Word(original = "Schmerz", translation = "pain", languageCode = "DE", category = "Health"),
+        Word(original = "Krankheit", translation = "illness", languageCode = "DE", category = "Health"),
+        Word(original = "Arzt", translation = "doctor", languageCode = "DE", category = "Health"),
+        Word(original = "Krankenhaus", translation = "hospital", languageCode = "DE", category = "Health"),
+        Word(original = "Medizin", translation = "medicine", languageCode = "DE", category = "Health"),
+        Word(original = "Apotheke", translation = "pharmacy", languageCode = "DE", category = "Health"),
+        Word(original = "Gesundheit", translation = "health", languageCode = "DE", category = "Health"),
 
         Word(original = "Sonne", translation = "sun", languageCode = "DE", category = "Nature"),
         Word(original = "Mond", translation = "moon", languageCode = "DE", category = "Nature"),
@@ -171,22 +188,25 @@ object PrepopulatedData {
         Word(original = "Katze", translation = "cat", languageCode = "DE", category = "Nature"),
         Word(original = "Vogel", translation = "bird", languageCode = "DE", category = "Nature"),
         Word(original = "Fisch", translation = "fish", languageCode = "DE", category = "Nature"),
+        Word(original = "Wald", translation = "forest", languageCode = "DE", category = "Nature"),
+        Word(original = "Berg", translation = "mountain", languageCode = "DE", category = "Nature"),
+        Word(original = "See", translation = "lake", languageCode = "DE", category = "Nature"),
+        Word(original = "Meer", translation = "sea / ocean", languageCode = "DE", category = "Nature"),
 
-        Word(original = "Hallo", translation = "hello", languageCode = "DE", category = "Greetings"),
-        Word(original = "Tschüss", translation = "bye", languageCode = "DE", category = "Greetings"),
-        Word(original = "Danke", translation = "thanks", languageCode = "DE", category = "Greetings"),
-        Word(original = "Bitte", translation = "please / you're welcome", languageCode = "DE", category = "Greetings"),
-        Word(original = "Entschuldigung", translation = "excuse me / sorry", languageCode = "DE", category = "Greetings"),
-        Word(original = "Ja", translation = "yes", languageCode = "DE", category = "Greetings"),
-        Word(original = "Nein", translation = "no", languageCode = "DE", category = "Greetings"),
-
-        Word(original = "rot", translation = "red", languageCode = "DE", category = "Colors"),
-        Word(original = "blau", translation = "blue", languageCode = "DE", category = "Colors"),
-        Word(original = "grün", translation = "green", languageCode = "DE", category = "Colors"),
-        Word(original = "gelb", translation = "yellow", languageCode = "DE", category = "Colors"),
-        Word(original = "schwarz", translation = "black", languageCode = "DE", category = "Colors"),
-        Word(original = "weiß", translation = "white", languageCode = "DE", category = "Colors"),
-        Word(original = "grau", translation = "grey", languageCode = "DE", category = "Colors"),
+        Word(original = "Hallo", translation = "hello", languageCode = "DE", category = "Social"),
+        Word(original = "Tschüss", translation = "bye", languageCode = "DE", category = "Social"),
+        Word(original = "Danke", translation = "thanks", languageCode = "DE", category = "Social"),
+        Word(original = "Bitte", translation = "please / you're welcome", languageCode = "DE", category = "Social"),
+        Word(original = "Entschuldigung", translation = "excuse me / sorry", languageCode = "DE", category = "Social"),
+        Word(original = "Ja", translation = "yes", languageCode = "DE", category = "Social"),
+        Word(original = "Nein", translation = "no", languageCode = "DE", category = "Social"),
+        Word(original = "Liebe", translation = "love", languageCode = "DE", category = "Social"),
+        Word(original = "Freund", translation = "friend", languageCode = "DE", category = "Social"),
+        Word(original = "Familie", translation = "family", languageCode = "DE", category = "Social"),
+        Word(original = "Eltern", translation = "parents", languageCode = "DE", category = "Social"),
+        Word(original = "Kind", translation = "child", languageCode = "DE", category = "Social"),
+        Word(original = "Schule", translation = "school", languageCode = "DE", category = "Social"),
+        Word(original = "Lernen", translation = "to learn", languageCode = "DE", category = "Social"),
 
         Word(original = "eins", translation = "one", languageCode = "DE", category = "Numbers"),
         Word(original = "zwei", translation = "two", languageCode = "DE", category = "Numbers"),
@@ -197,19 +217,27 @@ object PrepopulatedData {
         Word(original = "sieben", translation = "seven", languageCode = "DE", category = "Numbers"),
         Word(original = "acht", translation = "eight", languageCode = "DE", category = "Numbers"),
         Word(original = "neun", translation = "nine", languageCode = "DE", category = "Numbers"),
-        Word(original = "zehn", translation = "ten", languageCode = "DE", category = "Numbers")
-    ) + (182..2000).map { i ->
+        Word(original = "zehn", translation = "ten", languageCode = "DE", category = "Numbers"),
+        Word(original = "elf", translation = "eleven", languageCode = "DE", category = "Numbers"),
+        Word(original = "zwölf", translation = "twelve", languageCode = "DE", category = "Numbers"),
+        Word(original = "zwanzig", translation = "twenty", languageCode = "DE", category = "Numbers"),
+        Word(original = "hundert", translation = "hundred", languageCode = "DE", category = "Numbers"),
+        Word(original = "tausend", translation = "thousand", languageCode = "DE", category = "Numbers")
+    ) + (commonWordsSize()..5000).map { i ->
         Word(
-            original = "Wort $i",
+            original = "Vokabel $i",
             translation = "Translation $i",
             languageCode = "DE",
             category = when {
-                i % 5 == 0 -> "Business"
-                i % 5 == 1 -> "Health"
-                i % 5 == 2 -> "Education"
-                i % 5 == 3 -> "Technology"
+                i % 6 == 0 -> "Advanced Verbs"
+                i % 6 == 1 -> "Professional"
+                i % 6 == 2 -> "Academic"
+                i % 6 == 3 -> "Technology"
+                i % 6 == 4 -> "Art & Music"
                 else -> "Daily Life"
             }
         )
     }
+
+    private fun commonWordsSize(): Int = 200 // Simplified reference for the generator
 }
