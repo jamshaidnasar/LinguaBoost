@@ -236,7 +236,151 @@ object PrepopulatedData {
         Word(original = "grün", translation = "green", languageCode = "DE", category = "Colors"),
         Word(original = "gelb", translation = "yellow", languageCode = "DE", category = "Colors"),
         Word(original = "schwarz", translation = "black", languageCode = "DE", category = "Colors"),
-        Word(original = "weiß", translation = "white", languageCode = "DE", category = "Colors")
+        Word(original = "weiß", translation = "white", languageCode = "DE", category = "Colors"),
+        
+        // Additional Food & Dining
+        Word(original = "Restaurant", translation = "restaurant", languageCode = "DE", category = "Food"),
+        Word(original = "Küche", translation = "kitchen", languageCode = "DE", category = "Food"),
+        Word(original = "Suppe", translation = "soup", languageCode = "DE", category = "Food"),
+        Word(original = "Reis", translation = "rice", languageCode = "DE", category = "Food"),
+        Word(original = "Nudeln", translation = "noodles", languageCode = "DE", category = "Food"),
+        Word(original = "Pizza", translation = "pizza", languageCode = "DE", category = "Food"),
+        Word(original = "Bier", translation = "beer", languageCode = "DE", category = "Food"),
+        Word(original = "Wein", translation = "wine", languageCode = "DE", category = "Food"),
+        Word(original = "Saft", translation = "juice", languageCode = "DE", category = "Food"),
+        Word(original = "Kuchen", translation = "cake", languageCode = "DE", category = "Food"),
+        
+        // Shopping & Commerce
+        Word(original = "Geld", translation = "money", languageCode = "DE", category = "Shopping"),
+        Word(original = "Preis", translation = "price", languageCode = "DE", category = "Shopping"),
+        Word(original = "Kaufen", translation = "to buy", languageCode = "DE", category = "Shopping"),
+        Word(original = "Verkaufen", translation = "to sell", languageCode = "DE", category = "Shopping"),
+        Word(original = "Markt", translation = "market", languageCode = "DE", category = "Shopping"),
+        Word(original = "Laden", translation = "shop/store", languageCode = "DE", category = "Shopping"),
+        Word(original = "Produkt", translation = "product", languageCode = "DE", category = "Shopping"),
+        Word(original = "Qualität", translation = "quality", languageCode = "DE", category = "Shopping"),
+        Word(original = "Rabatt", translation = "discount", languageCode = "DE", category = "Shopping"),
+        Word(original = "Bezahlen", translation = "to pay", languageCode = "DE", category = "Shopping"),
+        
+        // Health & Medical
+        Word(original = "Arzt", translation = "doctor", languageCode = "DE", category = "Health"),
+        Word(original = "Krankenhaus", translation = "hospital", languageCode = "DE", category = "Health"),
+        Word(original = "Medizin", translation = "medicine", languageCode = "DE", category = "Health"),
+        Word(original = "Schmerzen", translation = "pain", languageCode = "DE", category = "Health"),
+        Word(original = "Temperatur", translation = "temperature", languageCode = "DE", category = "Health"),
+        Word(original = "Operation", translation = "operation/surgery", languageCode = "DE", category = "Health"),
+        Word(original = "Behandlung", translation = "treatment", languageCode = "DE", category = "Health"),
+        Word(original = "Diagnose", translation = "diagnosis", languageCode = "DE", category = "Health"),
+        Word(original = "Therapie", translation = "therapy", languageCode = "DE", category = "Health"),
+        Word(original = "Rezept", translation = "prescription", languageCode = "DE", category = "Health"),
+        
+        // Education & Learning
+        Word(original = "Schule", translation = "school", languageCode = "DE", category = "Education"),
+        Word(original = "Universität", translation = "university", languageCode = "DE", category = "Education"),
+        Word(original = "Lehrer", translation = "teacher", languageCode = "DE", category = "Education"),
+        Word(original = "Student", translation = "student", languageCode = "DE", category = "Education"),
+        Word(original = "Buch", translation = "book", languageCode = "DE", category = "Education"),
+        Word(original = "Prüfung", translation = "exam/test", languageCode = "DE", category = "Education"),
+        Word(original = "Note", translation = "grade/mark", languageCode = "DE", category = "Education"),
+        Word(original = "Fach", translation = "subject", languageCode = "DE", category = "Education"),
+        Word(original = "Lernen", translation = "to learn", languageCode = "DE", category = "Education"),
+        Word(original = "Wissen", translation = "knowledge", languageCode = "DE", category = "Education"),
+        
+        // Technology & Digital
+        Word(original = "Computer", translation = "computer", languageCode = "DE", category = "Technology"),
+        Word(original = "Internet", translation = "internet", languageCode = "DE", category = "Technology"),
+        Word(original = "Smartphone", translation = "smartphone", languageCode = "DE", category = "Technology"),
+        Word(original = "App", translation = "application", languageCode = "DE", category = "Technology"),
+        Word(original = "Software", translation = "software", languageCode = "DE", category = "Technology"),
+        Word(original = "Daten", translation = "data", languageCode = "DE", category = "Technology"),
+        Word(original = "Netzwerk", translation = "network", languageCode = "DE", category = "Technology"),
+        Word(original = "Sicherheit", translation = "security", languageCode = "DE", category = "Technology"),
+        Word(original = "Programm", translation = "program", languageCode = "DE", category = "Technology"),
+        Word(original = "Website", translation = "website", languageCode = "DE", category = "Technology"),
+        
+        // Time & Calendar
+        Word(original = "Minute", translation = "minute", languageCode = "DE", category = "Time"),
+        Word(original = "Stunde", translation = "hour", languageCode = "DE", category = "Time"),
+        Word(original = "Woche", translation = "week", languageCode = "DE", category = "Time"),
+        Word(original = "Monat", translation = "month", languageCode = "DE", category = "Time"),
+        Word(original = "Sekunde", translation = "second", languageCode = "DE", category = "Time"),
+        Word(original = "gestern", translation = "yesterday", languageCode = "DE", category = "Time"),
+        Word(original = "heute", translation = "today", languageCode = "DE", category = "Time"),
+        Word(original = "morgen", translation = "tomorrow", languageCode = "DE", category = "Time"),
+        Word(original = "Montag", translation = "Monday", languageCode = "DE", category = "Time"),
+        Word(original = "Wochenende", translation = "weekend", languageCode = "DE", category = "Time"),
+        
+        // Directions & Locations
+        Word(original = "links", translation = "left", languageCode = "DE", category = "Directions"),
+        Word(original = "rechts", translation = "right", languageCode = "DE", category = "Directions"),
+        Word(original = "geradeaus", translation = "straight ahead", languageCode = "DE", category = "Directions"),
+        Word(original = "hinten", translation = "behind/back", languageCode = "DE", category = "Directions"),
+        Word(original = "vorne", translation = "front", languageCode = "DE", category = "Directions"),
+        Word(original = "oben", translation = "up/above", languageCode = "DE", category = "Directions"),
+        Word(original = "unten", translation = "down/below", languageCode = "DE", category = "Directions"),
+        Word(original = "Adresse", translation = "address", languageCode = "DE", category = "Directions"),
+        Word(original = "Karte", translation = "map", languageCode = "DE", category = "Directions"),
+        Word(original = "Position", translation = "position", languageCode = "DE", category = "Directions"),
+        
+        // Weather & Seasons
+        Word(original = "warm", translation = "warm", languageCode = "DE", category = "Weather"),
+        Word(original = "kalt", translation = "cold", languageCode = "DE", category = "Weather"),
+        Word(original = "heiß", translation = "hot", languageCode = "DE", category = "Weather"),
+        Word(original = "bewölkt", translation = "cloudy", languageCode = "DE", category = "Weather"),
+        Word(original = "sonnig", translation = "sunny", languageCode = "DE", category = "Weather"),
+        Word(original = "stürmisch", translation = "stormy", languageCode = "DE", category = "Weather"),
+        Word(original = "Winter", translation = "winter", languageCode = "DE", category = "Weather"),
+        Word(original = "Sommer", translation = "summer", languageCode = "DE", category = "Weather"),
+        Word(original = "Frühling", translation = "spring", languageCode = "DE", category = "Weather"),
+        Word(original = "Herbst", translation = "autumn/fall", languageCode = "DE", category = "Weather"),
+        
+        // Body Parts
+        Word(original = "Kopf", translation = "head", languageCode = "DE", category = "Body"),
+        Word(original = "Bein", translation = "leg", languageCode = "DE", category = "Body"),
+        Word(original = "Arm", translation = "arm", languageCode = "DE", category = "Body"),
+        Word(original = "Fuß", translation = "foot", languageCode = "DE", category = "Body"),
+        Word(original = "Mund", translation = "mouth", languageCode = "DE", category = "Body"),
+        Word(original = "Nase", translation = "nose", languageCode = "DE", category = "Body"),
+        Word(original = "Ohr", translation = "ear", languageCode = "DE", category = "Body"),
+        Word(original = "Zahn", translation = "tooth", languageCode = "DE", category = "Body"),
+        Word(original = "Haare", translation = "hair", languageCode = "DE", category = "Body"),
+        Word(original = "Herz", translation = "heart", languageCode = "DE", category = "Body"),
+        
+        // Clothing & Fashion
+        Word(original = "Kleidung", translation = "clothing", languageCode = "DE", category = "Clothing"),
+        Word(original = "Hemd", translation = "shirt", languageCode = "DE", category = "Clothing"),
+        Word(original = "Hose", translation = "pants/trousers", languageCode = "DE", category = "Clothing"),
+        Word(original = "Schuhe", translation = "shoes", languageCode = "DE", category = "Clothing"),
+        Word(original = "Jacke", translation = "jacket", languageCode = "DE", category = "Clothing"),
+        Word(original = "Mütze", translation = "cap/hat", languageCode = "DE", category = "Clothing"),
+        Word(original = "Socken", translation = "socks", languageCode = "DE", category = "Clothing"),
+        Word(original = "Pulli", translation = "sweater", languageCode = "DE", category = "Clothing"),
+        Word(original = "Rock", translation = "skirt", languageCode = "DE", category = "Clothing"),
+        Word(original = "Kleid", translation = "dress", languageCode = "DE", category = "Clothing"),
+        
+        // Sports & Activities
+        Word(original = "Sport", translation = "sport", languageCode = "DE", category = "Sports"),
+        Word(original = "Fußball", translation = "soccer/football", languageCode = "DE", category = "Sports"),
+        Word(original = "Schwimmen", translation = "swimming", languageCode = "DE", category = "Sports"),
+        Word(original = "Laufen", translation = "running", languageCode = "DE", category = "Sports"),
+        Word(original = "Radfahren", translation = "cycling", languageCode = "DE", category = "Sports"),
+        Word(original = "Tennis", translation = "tennis", languageCode = "DE", category = "Sports"),
+        Word(original = "Turnen", translation = "gymnastics", languageCode = "DE", category = "Sports"),
+        Word(original = "Yoga", translation = "yoga", languageCode = "DE", category = "Sports"),
+        Word(original = "Tanzen", translation = "dancing", languageCode = "DE", category = "Sports"),
+        Word(original = "Ski", translation = "skiing", languageCode = "DE", category = "Sports"),
+        
+        // Music & Arts
+        Word(original = "Musik", translation = "music", languageCode = "DE", category = "Music"),
+        Word(original = "Lied", translation = "song", languageCode = "DE", category = "Music"),
+        Word(original = "Gitarre", translation = "guitar", languageCode = "DE", category = "Music"),
+        Word(original = "Klavier", translation = "piano", languageCode = "DE", category = "Music"),
+        Word(original = "Sänger", translation = "singer", languageCode = "DE", category = "Music"),
+        Word(original = "Konzert", translation = "concert", languageCode = "DE", category = "Music"),
+        Word(original = "Band", translation = "band", languageCode = "DE", category = "Music"),
+        Word(original = "Radio", translation = "radio", languageCode = "DE", category = "Music"),
+        Word(original = "Kino", translation = "cinema", languageCode = "DE", category = "Music"),
+        Word(original = "Theater", translation = "theater", languageCode = "DE", category = "Music")
     ) + (commonWordsSize()..10000).map { i ->
         Word(
             original = "German $i",
@@ -255,5 +399,5 @@ object PrepopulatedData {
         )
     }
 
-    private fun commonWordsSize(): Int = 250 // Internal marker
+    private fun commonWordsSize(): Int = 384 // Internal marker
 }
