@@ -2941,7 +2941,151 @@ object PrepopulatedData {
         Word(original = "Traditionelle Chinesische Medizin", translation = "traditional Chinese medicine", languageCode = "DE", category = "EmotionsWellbeing"),
         Word(original = "Schamanische Praktiken", translation = "shamanic practices", languageCode = "DE", category = "EmotionsWellbeing"),
         Word(original = "Energiearbeit", translation = "energy work", languageCode = "DE", category = "EmotionsWellbeing"),
-        Word(original = "Klangtherapie", translation = "sound therapy", languageCode = "DE", category = "EmotionsWellbeing")
+        Word(original = "Klangtherapie", translation = "sound therapy", languageCode = "DE", category = "EmotionsWellbeing"),
+        
+        // Time & Calendar Category - Comprehensive temporal vocabulary
+        Word(original = "Zeitmanagement", translation = "time management", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Chronologie", translation = "chronology", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Temporalität", translation = "temporality", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Synchronisation", translation = "synchronization", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Asynchronität", translation = "asynchronicity", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitzonen", translation = "time zones", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Sommerzeit", translation = "daylight saving time", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Winterzeit", translation = "standard time", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitdilatation", translation = "time dilation", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitverschiebung", translation = "time shift", languageCode = "DE", category = "TimeCalendar"),
+        
+        // Calendar Systems and Dating
+        Word(original = "Gregorianischer Kalender", translation = "Gregorian calendar", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Julianischer Kalender", translation = "Julian calendar", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Lunarkalender", translation = "lunar calendar", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "SolarKalender", translation = "solar calendar", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Schaltjahr", translation = "leap year", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Schaltsekunde", translation = "leap second", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Kalenderreform", translation = "calendar reform", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Datumssystem", translation = "date system", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Ära", translation = "era", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Epochen", translation = "epochs", languageCode = "DE", category = "TimeCalendar"),
+        
+        // Time Measurement Units
+        Word(original = "Planck-Zeit", translation = "Planck time", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Sekunde", translation = "second", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Minute", translation = "minute", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Stunde", translation = "hour", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Tag", translation = "day", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Woche", translation = "week", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Monat", translation = "month", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Quartal", translation = "quarter", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Jahr", translation = "year", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Jahrzehnt", translation = "decade", languageCode = "DE", category = "TimeCalendar"),
+        
+        // Extended Time Periods
+        Word(original = "Jahrhundert", translation = "century", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Millennium", translation = "millennium", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Äon", translation = "eon", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitalter", translation = "age", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Periode", translation = "period", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Epoche", translation = "epoch", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Ära", translation = "era", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Generation", translation = "generation", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Morgengrauen", translation = "dawn", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Mittag", translation = "noon", languageCode = "DE", category = "TimeCalendar"),
+        
+        // Clock and Timekeeping
+        Word(original = "Zeitmessung", translation = "timekeeping", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Uhrwerk", translation = "clockwork", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Chronometer", translation = "chronometer", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitgeber", translation = "timekeeper", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Sekundenzeiger", translation = "second hand", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Minutenzeiger", translation = "minute hand", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Stundenzeiger", translation = "hour hand", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Digitaluhr", translation = "digital clock", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Analoguhr", translation = "analog clock", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Atomuhr", translation = "atomic clock", languageCode = "DE", category = "TimeCalendar"),
+        
+        // Scheduling and Planning
+        Word(original = "Terminplanung", translation = "appointment scheduling", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitplan", translation = "schedule", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Agenda", translation = "agenda", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Kalenderwoche", translation = "calendar week", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Deadline", translation = "deadline", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Frist", translation = "deadline/term", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitfenster", translation = "time window", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitrahmen", translation = "timeframe", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitlimit", translation = "time limit", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitpuffer", translation = "time buffer", languageCode = "DE", category = "TimeCalendar"),
+        
+        // Business and Professional Timing
+        Word(original = "Arbeitszeit", translation = "working hours", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Bürozeiten", translation = "office hours", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Schichtarbeit", translation = "shift work", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Vollzeit", translation = "full-time", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Teilzeit", translation = "part-time", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Überstunden", translation = "overtime", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Feiertage", translation = "holidays", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Urlaubstage", translation = "vacation days", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Krankheitstage", translation = "sick days", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeiterfassung", translation = "time tracking", languageCode = "DE", category = "TimeCalendar"),
+        
+        // Scientific Time Concepts
+        Word(original = "Zeitdilatation", translation = "time dilation", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Raum-Zeit-Kontinuum", translation = "space-time continuum", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitparadoxon", translation = "time paradox", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitreise", translation = "time travel", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Chronologische Singularität", translation = "chronological singularity", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitliche Kausalität", translation = "temporal causality", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitliche Symmetrie", translation = "time symmetry", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitliche Asymmetrie", translation = "time asymmetry", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitliche Dimension", translation = "time dimension", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitliche Struktur", translation = "temporal structure", languageCode = "DE", category = "TimeCalendar"),
+        
+        // Cultural and Historical Time
+        Word(original = "Mittelalter", translation = "Middle Ages", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Renaissance", translation = "Renaissance", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Aufklärung", translation = "Enlightenment", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Industriezeitalter", translation = "Industrial Age", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Informationszeitalter", translation = "Information Age", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Digitales Zeitalter", translation = "Digital Age", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Steinzeit", translation = "Stone Age", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Bronzezeit", translation = "Bronze Age", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Eisenzeit", translation = "Iron Age", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Klassische Antike", translation = "Classical Antiquity", languageCode = "DE", category = "TimeCalendar"),
+        
+        // Seasonal and Cyclical Time
+        Word(original = "Frühling", translation = "spring", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Sommer", translation = "summer", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Herbst", translation = "autumn/fall", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Winter", translation = "winter", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Tagundnachtgleiche", translation = "equinox", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Sonnwende", translation = "solstice", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Mondzyklus", translation = "lunar cycle", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Sonnzyklus", translation = "solar cycle", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Jahreszeiten", translation = "seasons", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Klimazyklen", translation = "climate cycles", languageCode = "DE", category = "TimeCalendar"),
+        
+        // Event Timing and Frequency
+        Word(original = "Einmalig", translation = "one-time", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Täglich", translation = "daily", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Wöchentlich", translation = "weekly", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Monatlich", translation = "monthly", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Vierteljährlich", translation = "quarterly", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Halbjährlich", translation = "semi-annually", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Jährlich", translation = "annually", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Periodisch", translation = "periodically", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Regelmäßig", translation = "regularly", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Unregelmäßig", translation = "irregularly", languageCode = "DE", category = "TimeCalendar"),
+        
+        // Time Expressions and Idioms
+        Word(original = "Pünktlichkeit", translation = "punctuality", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Verspätung", translation = "delay", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Vorzeitig", translation = "premature", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Nachträglich", translation = "retrospectively", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitgemäß", translation = "timely", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Unzeitgemäß", translation = "untimely", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitlos", translation = "timeless", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitkritisch", translation = "time-critical", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeitintensiv", translation = "time-intensive", languageCode = "DE", category = "TimeCalendar"),
+        Word(original = "Zeit sparend", translation = "time-saving", languageCode = "DE", category = "TimeCalendar")
     ) + (commonWordsSize()..10000).map { i ->
         Word(
             original = "German $i",
@@ -2960,5 +3104,5 @@ object PrepopulatedData {
         )
     }
 
-    private fun commonWordsSize(): Int = 2968 // Internal marker
+    private fun commonWordsSize(): Int = 3113 // Internal marker
 }
