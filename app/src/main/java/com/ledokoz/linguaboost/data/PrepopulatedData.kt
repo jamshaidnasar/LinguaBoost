@@ -476,7 +476,103 @@ object PrepopulatedData {
         Word(original = "Mathematik", translation = "mathematics", languageCode = "DE", category = "Science"),
         Word(original = "Theorie", translation = "theory", languageCode = "DE", category = "Science"),
         Word(original = "Hypothese", translation = "hypothesis", languageCode = "DE", category = "Science"),
-        Word(original = "Entdeckung", translation = "discovery", languageCode = "DE", category = "Science")
+        Word(original = "Entdeckung", translation = "discovery", languageCode = "DE", category = "Science"),
+        
+        // Medicine & Healthcare
+        Word(original = "Krankheit", translation = "illness/disease", languageCode = "DE", category = "Medicine"),
+        Word(original = "Symptom", translation = "symptom", languageCode = "DE", category = "Medicine"),
+        Word(original = "Impfung", translation = "vaccination", languageCode = "DE", category = "Medicine"),
+        Word(original = "Tablette", translation = "pill/tablet", languageCode = "DE", category = "Medicine"),
+        Word(original = "Operationssaal", translation = "operating room", languageCode = "DE", category = "Medicine"),
+        Word(original = "Krankenpfleger", translation = "nurse", languageCode = "DE", category = "Medicine"),
+        Word(original = "Apotheke", translation = "pharmacy", languageCode = "DE", category = "Medicine"),
+        Word(original = "Blutdruck", translation = "blood pressure", languageCode = "DE", category = "Medicine"),
+        Word(original = "Allergie", translation = "allergy", languageCode = "DE", category = "Medicine"),
+        Word(original = "Therapeut", translation = "therapist", languageCode = "DE", category = "Medicine"),
+        
+        // Legal & Law
+        Word(original = "Gericht", translation = "court", languageCode = "DE", category = "Legal"),
+        Word(original = "Gesetz", translation = "law", languageCode = "DE", category = "Legal"),
+        Word(original = "Verbrechen", translation = "crime", languageCode = "DE", category = "Legal"),
+        Word(original = "Richter", translation = "judge", languageCode = "DE", category = "Legal"),
+        Word(original = "Beweis", translation = "evidence", languageCode = "DE", category = "Legal"),
+        Word(original = "Vertrag", translation = "contract", languageCode = "DE", category = "Legal"),
+        Word(original = "Rechte", translation = "rights", languageCode = "DE", category = "Legal"),
+        Word(original = "Justiz", translation = "justice", languageCode = "DE", category = "Legal"),
+        Word(original = "Strafe", translation = "punishment", languageCode = "DE", category = "Legal"),
+        Word(original = "Anwalt", translation = "lawyer/attorney", languageCode = "DE", category = "Legal"),
+        
+        // Banking & Finance
+        Word(original = "Bank", translation = "bank", languageCode = "DE", category = "Finance"),
+        Word(original = "Konto", translation = "account", languageCode = "DE", category = "Finance"),
+        Word(original = "Kredit", translation = "credit/loan", languageCode = "DE", category = "Finance"),
+        Word(original = "Investition", translation = "investment", languageCode = "DE", category = "Finance"),
+        Word(original = "Aktie", translation = "stock/share", languageCode = "DE", category = "Finance"),
+        Word(original = "Zinsen", translation = "interest", languageCode = "DE", category = "Finance"),
+        Word(original = "Budget", translation = "budget", languageCode = "DE", category = "Finance"),
+        Word(original = "Steuer", translation = "tax", languageCode = "DE", category = "Finance"),
+        Word(original = "Gehalt", translation = "salary/wage", languageCode = "DE", category = "Finance"),
+        Word(original = "Rechnung", translation = "bill/invoice", languageCode = "DE", category = "Finance"),
+        
+        // Construction & Architecture
+        Word(original = "Gebäude", translation = "building", languageCode = "DE", category = "Construction"),
+        Word(original = "Brücke", translation = "bridge", languageCode = "DE", category = "Construction"),
+        Word(original = "Fundament", translation = "foundation", languageCode = "DE", category = "Construction"),
+        Word(original = "Dach", translation = "roof", languageCode = "DE", category = "Construction"),
+        Word(original = "Fenster", translation = "window", languageCode = "DE", category = "Construction"),
+        Word(original = "Tür", translation = "door", languageCode = "DE", category = "Construction"),
+        Word(original = "Wand", translation = "wall", languageCode = "DE", category = "Construction"),
+        Word(original = "Boden", translation = "floor/ground", languageCode = "DE", category = "Construction"),
+        Word(original = "Treppen", translation = "stairs", languageCode = "DE", category = "Construction"),
+        Word(original = "Balkon", translation = "balcony", languageCode = "DE", category = "Construction"),
+        
+        // Agriculture & Farming
+        Word(original = "Bauer", translation = "farmer", languageCode = "DE", category = "Agriculture"),
+        Word(original = "Feld", translation = "field", languageCode = "DE", category = "Agriculture"),
+        Word(original = "Ernte", translation = "harvest", languageCode = "DE", category = "Agriculture"),
+        Word(original = "Traktor", translation = "tractor", languageCode = "DE", category = "Agriculture"),
+        Word(original = "Scheune", translation = "barn", languageCode = "DE", category = "Agriculture"),
+        Word(original = "Milchkuh", translation = "dairy cow", languageCode = "DE", category = "Agriculture"),
+        Word(original = "Saatgut", translation = "seed", languageCode = "DE", category = "Agriculture"),
+        Word(original = "Dünger", translation = "fertilizer", languageCode = "DE", category = "Agriculture"),
+        Word(original = "Bewässerung", translation = "irrigation", languageCode = "DE", category = "Agriculture"),
+        Word(original = "Erntezeit", translation = "harvest time", languageCode = "DE", category = "Agriculture"),
+        
+        // Military & Defense
+        Word(original = "Soldat", translation = "soldier", languageCode = "DE", category = "Military"),
+        Word(original = "Armee", translation = "army", languageCode = "DE", category = "Military"),
+        Word(original = "Offizier", translation = "officer", languageCode = "DE", category = "Military"),
+        Word(original = "Uniform", translation = "uniform", languageCode = "DE", category = "Military"),
+        Word(original = "Waffe", translation = "weapon", languageCode = "DE", category = "Military"),
+        Word(original = "Kaserne", translation = "barracks", languageCode = "DE", category = "Military"),
+        Word(original = "Mission", translation = "mission", languageCode = "DE", category = "Military"),
+        Word(original = "Strategie", translation = "strategy", languageCode = "DE", category = "Military"),
+        Word(original = "Verteidigung", translation = "defense", languageCode = "DE", category = "Military"),
+        Word(original = "Training", translation = "training", languageCode = "DE", category = "Military"),
+        
+        // Religion & Spirituality
+        Word(original = "Kirche", translation = "church", languageCode = "DE", category = "Religion"),
+        Word(original = "Gebet", translation = "prayer", languageCode = "DE", category = "Religion"),
+        Word(original = "Glaube", translation = "faith/belief", languageCode = "DE", category = "Religion"),
+        Word(original = "Predigt", translation = "sermon", languageCode = "DE", category = "Religion"),
+        Word(original = "Bibel", translation = "Bible", languageCode = "DE", category = "Religion"),
+        Word(original = "Engel", translation = "angel", languageCode = "DE", category = "Religion"),
+        Word(original = "Segen", translation = "blessing", languageCode = "DE", category = "Religion"),
+        Word(original = "Sünde", translation = "sin", languageCode = "DE", category = "Religion"),
+        Word(original = "Heilige", translation = "saint", languageCode = "DE", category = "Religion"),
+        Word(original = "Tempel", translation = "temple", languageCode = "DE", category = "Religion"),
+        
+        // Psychology & Mental Health
+        Word(original = "Psychotherapie", translation = "psychotherapy", languageCode = "DE", category = "Psychology"),
+        Word(original = "Depression", translation = "depression", languageCode = "DE", category = "Psychology"),
+        Word(original = "Angststörung", translation = "anxiety disorder", languageCode = "DE", category = "Psychology"),
+        Word(original = "Selbstwertgefühl", translation = "self-esteem", languageCode = "DE", category = "Psychology"),
+        Word(original = "Trauma", translation = "trauma", languageCode = "DE", category = "Psychology"),
+        Word(original = "Verhalten", translation = "behavior", languageCode = "DE", category = "Psychology"),
+        Word(original = "Persönlichkeit", translation = "personality", languageCode = "DE", category = "Psychology"),
+        Word(original = "Bewusstsein", translation = "consciousness", languageCode = "DE", category = "Psychology"),
+        Word(original = "Unterbewusstsein", translation = "subconscious", languageCode = "DE", category = "Psychology"),
+        Word(original = "Heilung", translation = "healing", languageCode = "DE", category = "Psychology")
     ) + (commonWordsSize()..10000).map { i ->
         Word(
             original = "German $i",
@@ -495,5 +591,5 @@ object PrepopulatedData {
         )
     }
 
-    private fun commonWordsSize(): Int = 481 // Internal marker
+    private fun commonWordsSize(): Int = 578 // Internal marker
 }
