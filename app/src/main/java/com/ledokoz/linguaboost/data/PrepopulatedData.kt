@@ -380,7 +380,103 @@ object PrepopulatedData {
         Word(original = "Band", translation = "band", languageCode = "DE", category = "Music"),
         Word(original = "Radio", translation = "radio", languageCode = "DE", category = "Music"),
         Word(original = "Kino", translation = "cinema", languageCode = "DE", category = "Music"),
-        Word(original = "Theater", translation = "theater", languageCode = "DE", category = "Music")
+        Word(original = "Theater", translation = "theater", languageCode = "DE", category = "Music"),
+        
+        // Animals & Pets
+        Word(original = "Hund", translation = "dog", languageCode = "DE", category = "Animals"),
+        Word(original = "Katze", translation = "cat", languageCode = "DE", category = "Animals"),
+        Word(original = "Vogel", translation = "bird", languageCode = "DE", category = "Animals"),
+        Word(original = "Pferd", translation = "horse", languageCode = "DE", category = "Animals"),
+        Word(original = "Fisch", translation = "fish", languageCode = "DE", category = "Animals"),
+        Word(original = "Tier", translation = "animal", languageCode = "DE", category = "Animals"),
+        Word(original = "Bär", translation = "bear", languageCode = "DE", category = "Animals"),
+        Word(original = "Elefant", translation = "elephant", languageCode = "DE", category = "Animals"),
+        Word(original = "Löwe", translation = "lion", languageCode = "DE", category = "Animals"),
+        Word(original = "Affe", translation = "monkey", languageCode = "DE", category = "Animals"),
+        
+        // Professions & Jobs
+        Word(original = "Ingenieur", translation = "engineer", languageCode = "DE", category = "Professions"),
+        Word(original = "Arzt", translation = "doctor", languageCode = "DE", category = "Professions"),
+        Word(original = "Lehrer", translation = "teacher", languageCode = "DE", category = "Professions"),
+        Word(original = "Koch", translation = "cook/chef", languageCode = "DE", category = "Professions"),
+        Word(original = "Polizist", translation = "police officer", languageCode = "DE", category = "Professions"),
+        Word(original = "Anwalt", translation = "lawyer", languageCode = "DE", category = "Professions"),
+        Word(original = "Architekt", translation = "architect", languageCode = "DE", category = "Professions"),
+        Word(original = "Journalist", translation = "journalist", languageCode = "DE", category = "Professions"),
+        Word(original = "Musiker", translation = "musician", languageCode = "DE", category = "Professions"),
+        Word(original = "Designer", translation = "designer", languageCode = "DE", category = "Professions"),
+        
+        // Transportation & Vehicles
+        Word(original = "Motorrad", translation = "motorcycle", languageCode = "DE", category = "Transport"),
+        Word(original = "Lastwagen", translation = "truck", languageCode = "DE", category = "Transport"),
+        Word(original = "U-Bahn", translation = "subway/metro", languageCode = "DE", category = "Transport"),
+        Word(original = "Straße", translation = "street/road", languageCode = "DE", category = "Transport"),
+        Word(original = "Verkehr", translation = "traffic", languageCode = "DE", category = "Transport"),
+        Word(original = "Tankstelle", translation = "gas station", languageCode = "DE", category = "Transport"),
+        Word(original = "Parkplatz", translation = "parking lot", languageCode = "DE", category = "Transport"),
+        Word(original = "Fahrer", translation = "driver", languageCode = "DE", category = "Transport"),
+        Word(original = "Passagier", translation = "passenger", languageCode = "DE", category = "Transport"),
+        Word(original = "Fahrzeug", translation = "vehicle", languageCode = "DE", category = "Transport"),
+        
+        // Emergency & Safety
+        Word(original = "Feuerwehr", translation = "fire department", languageCode = "DE", category = "Emergency"),
+        Word(original = "Polizei", translation = "police", languageCode = "DE", category = "Emergency"),
+        Word(original = "Krankenwagen", translation = "ambulance", languageCode = "DE", category = "Emergency"),
+        Word(original = "Notfall", translation = "emergency", languageCode = "DE", category = "Emergency"),
+        Word(original = "Hilfe", translation = "help", languageCode = "DE", category = "Emergency"),
+        Word(original = "Alarm", translation = "alarm", languageCode = "DE", category = "Emergency"),
+        Word(original = "Rettung", translation = "rescue", languageCode = "DE", category = "Emergency"),
+        Word(original = "Sicherheit", translation = "safety", languageCode = "DE", category = "Emergency"),
+        Word(original = "Warnung", translation = "warning", languageCode = "DE", category = "Emergency"),
+        Word(original = "Gefahr", translation = "danger", languageCode = "DE", category = "Emergency"),
+        
+        // Kitchen & Cooking
+        Word(original = "Kochbuch", translation = "cookbook", languageCode = "DE", category = "Kitchen"),
+        Word(original = "Rezept", translation = "recipe", languageCode = "DE", category = "Kitchen"),
+        Word(original = "Zutat", translation = "ingredient", languageCode = "DE", category = "Kitchen"),
+        Word(original = "Gewürz", translation = "spice", languageCode = "DE", category = "Kitchen"),
+        Word(original = "Messbecher", translation = "measuring cup", languageCode = "DE", category = "Kitchen"),
+        Word(original = "Topf", translation = "pot", languageCode = "DE", category = "Kitchen"),
+        Word(original = "Pfanne", translation = "pan", languageCode = "DE", category = "Kitchen"),
+        Word(original = "Messer", translation = "knife", languageCode = "DE", category = "Kitchen"),
+        Word(original = "Gabel", translation = "fork", languageCode = "DE", category = "Kitchen"),
+        Word(original = "Löffel", translation = "spoon", languageCode = "DE", category = "Kitchen"),
+        
+        // Office & Business
+        Word(original = "Drucker", translation = "printer", languageCode = "DE", category = "Office"),
+        Word(original = "Fax", translation = "fax machine", languageCode = "DE", category = "Office"),
+        Word(original = "Kopierer", translation = "copier", languageCode = "DE", category = "Office"),
+        Word(original = "Ordner", translation = "folder", languageCode = "DE", category = "Office"),
+        Word(original = "Stift", translation = "pen", languageCode = "DE", category = "Office"),
+        Word(original = "Bleistift", translation = "pencil", languageCode = "DE", category = "Office"),
+        Word(original = "Notizblock", translation = "notepad", languageCode = "DE", category = "Office"),
+        Word(original = "Kalender", translation = "calendar", languageCode = "DE", category = "Office"),
+        Word(original = "Termin", translation = "appointment", languageCode = "DE", category = "Office"),
+        Word(original = "Präsentation", translation = "presentation", languageCode = "DE", category = "Office"),
+        
+        // Holidays & Celebrations
+        Word(original = "Weihnachten", translation = "Christmas", languageCode = "DE", category = "Holidays"),
+        Word(original = "Silvester", translation = "New Year's Eve", languageCode = "DE", category = "Holidays"),
+        Word(original = "Ostern", translation = "Easter", languageCode = "DE", category = "Holidays"),
+        Word(original = "Geburtstag", translation = "birthday", languageCode = "DE", category = "Holidays"),
+        Word(original = "Party", translation = "party", languageCode = "DE", category = "Holidays"),
+        Word(original = "Geschenk", translation = "gift/present", languageCode = "DE", category = "Holidays"),
+        Word(original = "Feier", translation = "celebration", languageCode = "DE", category = "Holidays"),
+        Word(original = "Tradition", translation = "tradition", languageCode = "DE", category = "Holidays"),
+        Word(original = "Fest", translation = "festival", languageCode = "DE", category = "Holidays"),
+        Word(original = "Bräuche", translation = "customs", languageCode = "DE", category = "Holidays"),
+        
+        // Science & Research
+        Word(original = "Labor", translation = "laboratory", languageCode = "DE", category = "Science"),
+        Word(original = "Experiment", translation = "experiment", languageCode = "DE", category = "Science"),
+        Word(original = "Forschung", translation = "research", languageCode = "DE", category = "Science"),
+        Word(original = "Chemie", translation = "chemistry", languageCode = "DE", category = "Science"),
+        Word(original = "Physik", translation = "physics", languageCode = "DE", category = "Science"),
+        Word(original = "Biologie", translation = "biology", languageCode = "DE", category = "Science"),
+        Word(original = "Mathematik", translation = "mathematics", languageCode = "DE", category = "Science"),
+        Word(original = "Theorie", translation = "theory", languageCode = "DE", category = "Science"),
+        Word(original = "Hypothese", translation = "hypothesis", languageCode = "DE", category = "Science"),
+        Word(original = "Entdeckung", translation = "discovery", languageCode = "DE", category = "Science")
     ) + (commonWordsSize()..10000).map { i ->
         Word(
             original = "German $i",
@@ -399,5 +495,5 @@ object PrepopulatedData {
         )
     }
 
-    private fun commonWordsSize(): Int = 384 // Internal marker
+    private fun commonWordsSize(): Int = 481 // Internal marker
 }
