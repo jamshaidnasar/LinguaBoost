@@ -1,0 +1,14 @@
+# Android Studio
+.idea/
+.gradle/
+/gradle/wrapper/
+
+# IDEs and Editors
+.vscode/
+.qoder/
+.kiro/
+.lingma/
+
+# Build files
+/build/
+/app/build/
