@@ -1,0 +1,79 @@
+name: Build and Release APK
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for commit counting
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+
+      - name: Calculate Version and Description
+        id: versioning
+        run: |
+          TOTAL_COMMITS=$(git rev-list --count HEAD)
+          MAJOR=$((TOTAL_COMMITS / 100))
+          MINOR=$(((TOTAL_COMMITS % 100) / 10))
+          PATCH=$((TOTAL_COMMITS % 10))
+          
+          # Version Name logic
+          if [ $MAJOR -gt 0 ] && [ $MINOR -eq 0 ] && [ $PATCH -eq 0 ]; then
+            VERSION="v$MAJOR"
+          else
+            VERSION="v$MAJOR.$MINOR.$PATCH"
+          fi
+          
+          # Description logic
+          if [ $((TOTAL_COMMITS % 100)) -eq 0 ]; then
+            COMMITS_TO_SHOW=100
+          elif [ $((TOTAL_COMMITS % 10)) -eq 0 ]; then
+            COMMITS_TO_SHOW=10
+          else
+            COMMITS_TO_SHOW=1
+          fi
+          
+          DESCRIPTION=$(git log -$COMMITS_TO_SHOW --pretty=format:"- %s")
+          
+          # Mask newlines for multiline output in GH Actions
+          DESCRIPTION="${DESCRIPTION//'%'/'%25'}"
+          DESCRIPTION="${DESCRIPTION//$'\n'/'%0A'}"
+          DESCRIPTION="${DESCRIPTION//$'\r'/'%0D'}"
+          
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "total_commits=$TOTAL_COMMITS" >> $GITHUB_OUTPUT
+          echo "description=$DESCRIPTION" >> $GITHUB_OUTPUT
+          echo "Calculated Version: $VERSION"
+          echo "Commit Count: $TOTAL_COMMITS"
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Build Release APK
+        run: ./gradlew assembleRelease -PversionCode=${{ steps.versioning.outputs.total_commits }} -PversionName=${{ steps.versioning.outputs.version }}
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "app/build/outputs/apk/release/*.apk"
+          tag: ${{ steps.versioning.outputs.version }}
+          name: Release ${{ steps.versioning.outputs.version }}
+          body: |
+            ### Changelog
+            ${{ steps.versioning.outputs.description }}
+          token: ${{ secrets.GITHUB_TOKEN }}
