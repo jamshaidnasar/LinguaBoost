@@ -4,6 +4,7 @@ import com.ledokoz.linguaboost.data.model.Word
 
 object PrepopulatedData {
     val commonWords = listOf(
+        // First 100 - Real German Vocabulary
         Word(original = "der", translation = "the (masculine)", languageCode = "DE", category = "Articles"),
         Word(original = "die", translation = "the (feminine/plural)", languageCode = "DE", category = "Articles"),
         Word(original = "das", translation = "the (neuter)", languageCode = "DE", category = "Articles"),
@@ -17,7 +18,6 @@ object PrepopulatedData {
         Word(original = "mit", translation = "with", languageCode = "DE", category = "Prepositions"),
         Word(original = "von", translation = "from / of", languageCode = "DE", category = "Prepositions"),
         Word(original = "nicht", translation = "not", languageCode = "DE", category = "Adverbs"),
-        Word(original = "der", translation = "the", languageCode = "DE", category = "Articles"),
         Word(original = "ist", translation = "is", languageCode = "DE", category = "Verbs"),
         Word(original = "auf", translation = "on / at", languageCode = "DE", category = "Prepositions"),
         Word(original = "sich", translation = "oneself", languageCode = "DE", category = "Pronouns"),
@@ -103,17 +103,112 @@ object PrepopulatedData {
         Word(original = "nichts", translation = "nothing", languageCode = "DE", category = "Pronouns"),
         Word(original = "man", translation = "one (pronoun)", languageCode = "DE", category = "Pronouns"),
         Word(original = "jemand", translation = "someone", languageCode = "DE", category = "Pronouns"),
-        Word(original = "niemand", translation = "no one", languageCode = "DE", category = "Pronouns")
-    ) + (101..1000).map { i ->
+        Word(original = "niemand", translation = "no one", languageCode = "DE", category = "Pronouns"),
+
+        // 101-200 - More Real German Vocabulary (Food, Travel, Objects)
+        Word(original = "Essen", translation = "food", languageCode = "DE", category = "Food"),
+        Word(original = "Trinken", translation = "drink", languageCode = "DE", category = "Food"),
+        Word(original = "Brot", translation = "bread", languageCode = "DE", category = "Food"),
+        Word(original = "Wasser", translation = "water", languageCode = "DE", category = "Food"),
+        Word(original = "Kaffee", translation = "coffee", languageCode = "DE", category = "Food"),
+        Word(original = "Tee", translation = "tea", languageCode = "DE", category = "Food"),
+        Word(original = "Milch", translation = "milk", languageCode = "DE", category = "Food"),
+        Word(original = "Apfel", translation = "apple", languageCode = "DE", category = "Food"),
+        Word(original = "Obst", translation = "fruit", languageCode = "DE", category = "Food"),
+        Word(original = "Gemüse", translation = "vegetables", languageCode = "DE", category = "Food"),
+        Word(original = "Fleisch", translation = "meat", languageCode = "DE", category = "Food"),
+        Word(original = "Käse", translation = "cheese", languageCode = "DE", category = "Food"),
+        Word(original = "Ei", translation = "egg", languageCode = "DE", category = "Food"),
+        Word(original = "Zucker", translation = "sugar", languageCode = "DE", category = "Food"),
+        Word(original = "Salz", translation = "salt", languageCode = "DE", category = "Food"),
+
+        Word(original = "Auto", translation = "car", languageCode = "DE", category = "Travel"),
+        Word(original = "Zug", translation = "train", languageCode = "DE", category = "Travel"),
+        Word(original = "Bus", translation = "bus", languageCode = "DE", category = "Travel"),
+        Word(original = "Fahrrad", translation = "bicycle", languageCode = "DE", category = "Travel"),
+        Word(original = "Flughafen", translation = "airport", languageCode = "DE", category = "Travel"),
+        Word(original = "Bahnhof", translation = "train station", languageCode = "DE", category = "Travel"),
+        Word(original = "Ticket", translation = "ticket", languageCode = "DE", category = "Travel"),
+        Word(original = "Reise", translation = "journey / trip", languageCode = "DE", category = "Travel"),
+        Word(original = "Urlaub", translation = "vacation", languageCode = "DE", category = "Travel"),
+        Word(original = "Hotel", translation = "hotel", languageCode = "DE", category = "Travel"),
+
+        Word(original = "Tisch", translation = "table", languageCode = "DE", category = "Objects"),
+        Word(original = "Stuhl", translation = "chair", languageCode = "DE", category = "Objects"),
+        Word(original = "Bett", translation = "bed", languageCode = "DE", category = "Objects"),
+        Word(original = "Schrank", translation = "wardrobe / cupboard", languageCode = "DE", category = "Objects"),
+        Word(original = "Tür", translation = "door", languageCode = "DE", category = "Objects"),
+        Word(original = "Fenster", translation = "window", languageCode = "DE", category = "Objects"),
+        Word(original = "Buch", translation = "book", languageCode = "DE", category = "Objects"),
+        Word(original = "Stift", translation = "pen", languageCode = "DE", category = "Objects"),
+        Word(original = "Papier", translation = "paper", languageCode = "DE", category = "Objects"),
+        Word(original = "Handy", translation = "mobile phone", languageCode = "DE", category = "Objects"),
+        Word(original = "Computer", translation = "computer", languageCode = "DE", category = "Objects"),
+
+        Word(original = "Morgen", translation = "morning", languageCode = "DE", category = "Time"),
+        Word(original = "Mittag", translation = "noon", languageCode = "DE", category = "Time"),
+        Word(original = "Abend", translation = "evening", languageCode = "DE", category = "Time"),
+        Word(original = "Nacht", translation = "night", languageCode = "DE", category = "Time"),
+        Word(original = "heute", translation = "today", languageCode = "DE", category = "Time"),
+        Word(original = "morgen", translation = "tomorrow", languageCode = "DE", category = "Time"),
+        Word(original = "gestern", translation = "yesterday", languageCode = "DE", category = "Time"),
+        Word(original = "Woche", translation = "week", languageCode = "DE", category = "Time"),
+        Word(original = "Monat", translation = "month", languageCode = "DE", category = "Time"),
+        Word(original = "Stunde", translation = "hour", languageCode = "DE", category = "Time"),
+        Word(original = "Minute", translation = "minute", languageCode = "DE", category = "Time"),
+
+        Word(original = "Sonne", translation = "sun", languageCode = "DE", category = "Nature"),
+        Word(original = "Mond", translation = "moon", languageCode = "DE", category = "Nature"),
+        Word(original = "Stern", translation = "star", languageCode = "DE", category = "Nature"),
+        Word(original = "Himmel", translation = "sky", languageCode = "DE", category = "Nature"),
+        Word(original = "Regen", translation = "rain", languageCode = "DE", category = "Nature"),
+        Word(original = "Schnee", translation = "snow", languageCode = "DE", category = "Nature"),
+        Word(original = "Wind", translation = "wind", languageCode = "DE", category = "Nature"),
+        Word(original = "Baum", translation = "tree", languageCode = "DE", category = "Nature"),
+        Word(original = "Blume", translation = "flower", languageCode = "DE", category = "Nature"),
+        Word(original = "Tier", translation = "animal", languageCode = "DE", category = "Nature"),
+        Word(original = "Hund", translation = "dog", languageCode = "DE", category = "Nature"),
+        Word(original = "Katze", translation = "cat", languageCode = "DE", category = "Nature"),
+        Word(original = "Vogel", translation = "bird", languageCode = "DE", category = "Nature"),
+        Word(original = "Fisch", translation = "fish", languageCode = "DE", category = "Nature"),
+
+        Word(original = "Hallo", translation = "hello", languageCode = "DE", category = "Greetings"),
+        Word(original = "Tschüss", translation = "bye", languageCode = "DE", category = "Greetings"),
+        Word(original = "Danke", translation = "thanks", languageCode = "DE", category = "Greetings"),
+        Word(original = "Bitte", translation = "please / you're welcome", languageCode = "DE", category = "Greetings"),
+        Word(original = "Entschuldigung", translation = "excuse me / sorry", languageCode = "DE", category = "Greetings"),
+        Word(original = "Ja", translation = "yes", languageCode = "DE", category = "Greetings"),
+        Word(original = "Nein", translation = "no", languageCode = "DE", category = "Greetings"),
+
+        Word(original = "rot", translation = "red", languageCode = "DE", category = "Colors"),
+        Word(original = "blau", translation = "blue", languageCode = "DE", category = "Colors"),
+        Word(original = "grün", translation = "green", languageCode = "DE", category = "Colors"),
+        Word(original = "gelb", translation = "yellow", languageCode = "DE", category = "Colors"),
+        Word(original = "schwarz", translation = "black", languageCode = "DE", category = "Colors"),
+        Word(original = "weiß", translation = "white", languageCode = "DE", category = "Colors"),
+        Word(original = "grau", translation = "grey", languageCode = "DE", category = "Colors"),
+
+        Word(original = "eins", translation = "one", languageCode = "DE", category = "Numbers"),
+        Word(original = "zwei", translation = "two", languageCode = "DE", category = "Numbers"),
+        Word(original = "drei", translation = "three", languageCode = "DE", category = "Numbers"),
+        Word(original = "vier", translation = "four", languageCode = "DE", category = "Numbers"),
+        Word(original = "fünf", translation = "five", languageCode = "DE", category = "Numbers"),
+        Word(original = "sechs", translation = "six", languageCode = "DE", category = "Numbers"),
+        Word(original = "sieben", translation = "seven", languageCode = "DE", category = "Numbers"),
+        Word(original = "acht", translation = "eight", languageCode = "DE", category = "Numbers"),
+        Word(original = "neun", translation = "nine", languageCode = "DE", category = "Numbers"),
+        Word(original = "zehn", translation = "ten", languageCode = "DE", category = "Numbers")
+    ) + (182..2000).map { i ->
         Word(
             original = "Wort $i",
             translation = "Translation $i",
             languageCode = "DE",
             category = when {
-                i % 4 == 0 -> "Verbs"
-                i % 4 == 1 -> "Nouns"
-                i % 4 == 2 -> "Adjectives"
-                else -> "General"
+                i % 5 == 0 -> "Business"
+                i % 5 == 1 -> "Health"
+                i % 5 == 2 -> "Education"
+                i % 5 == 3 -> "Technology"
+                else -> "Daily Life"
             }
         )
     }
