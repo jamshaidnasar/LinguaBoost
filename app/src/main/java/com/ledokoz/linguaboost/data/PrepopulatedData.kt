@@ -2317,7 +2317,115 @@ object PrepopulatedData {
         Word(original = "Quantenpunkte", translation = "quantum dots", languageCode = "DE", category = "Nanotech"),
         Word(original = "Nanoroboter", translation = "nanorobots", languageCode = "DE", category = "Nanotech"),
         Word(original = "Molekulare Maschinen", translation = "molecular machines", languageCode = "DE", category = "Nanotech"),
-        Word(original = "Nanomedizin", translation = "nanomedicine", languageCode = "DE", category = "Nanotech")
+        Word(original = "Nanomedizin", translation = "nanomedicine", languageCode = "DE", category = "Nanotech"),
+        
+        // Additional Computer Science terms
+        Word(original = "Quantenannealing", translation = "quantum annealing", languageCode = "DE", category = "ComputerScience"),
+        Word(original = "Edge Computing", translation = "edge computing", languageCode = "DE", category = "ComputerScience"),
+        Word(original = "Serverless Architecture", translation = "serverless architecture", languageCode = "DE", category = "ComputerScience"),
+        Word(original = "Microservices", translation = "microservices", languageCode = "DE", category = "ComputerScience"),
+        Word(original = "Container-Orchestrierung", translation = "container orchestration", languageCode = "DE", category = "ComputerScience"),
+        Word(original = "DevOps", translation = "DevOps", languageCode = "DE", category = "ComputerScience"),
+        Word(original = "Continuous Integration", translation = "continuous integration", languageCode = "DE", category = "ComputerScience"),
+        Word(original = "Cloud-Native", translation = "cloud native", languageCode = "DE", category = "ComputerScience"),
+        Word(original = "API-Gateway", translation = "API gateway", languageCode = "DE", category = "ComputerScience"),
+        Word(original = "Event-Driven Architecture", translation = "event-driven architecture", languageCode = "DE", category = "ComputerScience"),
+        
+        // Additional Mathematics terms
+        Word(original = "Topologische Datenanalyse", translation = "topological data analysis", languageCode = "DE", category = "Mathematics"),
+        Word(original = "Algebraische Topologie", translation = "algebraic topology", languageCode = "DE", category = "Mathematics"),
+        Word(original = "Differentialtopologie", translation = "differential topology", languageCode = "DE", category = "Mathematics"),
+        Word(original = "Homologietheorie", translation = "homology theory", languageCode = "DE", category = "Mathematics"),
+        Word(original = "Kohomologietheorie", translation = "cohomology theory", languageCode = "DE", category = "Mathematics"),
+        Word(original = "Algebraische Geometrie", translation = "algebraic geometry", languageCode = "DE", category = "Mathematics"),
+        Word(original = "Differenzialgeometrie", translation = "differential geometry", languageCode = "DE", category = "Mathematics"),
+        Word(original = "Funktionalanalysis", translation = "functional analysis", languageCode = "DE", category = "Mathematics"),
+        Word(original = "Maßtheorie", translation = "measure theory", languageCode = "DE", category = "Mathematics"),
+        Word(original = "Stochastische Analysis", translation = "stochastic analysis", languageCode = "DE", category = "Mathematics"),
+        
+        // Additional Physics terms
+        Word(original = "Quantenfeldtheorie", translation = "quantum field theory", languageCode = "DE", category = "Physics"),
+        Word(original = "Stringtheorie", translation = "string theory", languageCode = "DE", category = "Physics"),
+        Word(original = "Loop-Quantengravitation", translation = "loop quantum gravity", languageCode = "DE", category = "Physics"),
+        Word(original = "Supersymmetrie", translation = "supersymmetry", languageCode = "DE", category = "Physics"),
+        Word(original = "Extra-Dimensionen", translation = "extra dimensions", languageCode = "DE", category = "Physics"),
+        Word(original = "Quantenchromodynamik", translation = "quantum chromodynamics", languageCode = "DE", category = "Physics"),
+        Word(original = "Elektroschwache Theorie", translation = "electroweak theory", languageCode = "DE", category = "Physics"),
+        Word(original = "Grand Unified Theory", translation = "grand unified theory", languageCode = "DE", category = "Physics"),
+        Word(original = "Quanten-Teleportation", translation = "quantum teleportation", languageCode = "DE", category = "Physics"),
+        Word(original = "Bell-Ungleichungen", translation = "Bell inequalities", languageCode = "DE", category = "Physics"),
+        
+        // Additional Chemistry terms
+        Word(original = "Supramolekulare Chemie", translation = "supramolecular chemistry", languageCode = "DE", category = "Chemistry"),
+        Word(original = "Click-Chemie", translation = "click chemistry", languageCode = "DE", category = "Chemistry"),
+        Word(original = "Fluorous Chemistry", translation = "fluorous chemistry", languageCode = "DE", category = "Chemistry"),
+        Word(original = "Mechanochemie", translation = "mechanochemistry", languageCode = "DE", category = "Chemistry"),
+        Word(original = "Sonochemie", translation = "sonochemistry", languageCode = "DE", category = "Chemistry"),
+        Word(original = "Photochemie", translation = "photochemistry", languageCode = "DE", category = "Chemistry"),
+        Word(original = "Elektrochemie", translation = "electrochemistry", languageCode = "DE", category = "Chemistry"),
+        Word(original = "Thermochemie", translation = "thermochemistry", languageCode = "DE", category = "Chemistry"),
+        Word(original = "Stereochemie", translation = "stereochemistry", languageCode = "DE", category = "Chemistry"),
+        Word(original = "Quantenchemie", translation = "quantum chemistry", languageCode = "DE", category = "Chemistry"),
+        
+        // Additional Biology terms
+        Word(original = "Epigenetik", translation = "epigenetics", languageCode = "DE", category = "Biology"),
+        Word(original = "Proteomik", translation = "proteomics", languageCode = "DE", category = "Biology"),
+        Word(original = "Metabolomik", translation = "metabolomics", languageCode = "DE", category = "Biology"),
+        Word(original = "Transkriptomik", translation = "transcriptomics", languageCode = "DE", category = "Biology"),
+        Word(original = "Genomweite Assoziationsstudien", translation = "genome-wide association studies", languageCode = "DE", category = "Biology"),
+        Word(original = "CRISPR-Technologie", translation = "CRISPR technology", languageCode = "DE", category = "Biology"),
+        Word(original = "RNA-Interferenz", translation = "RNA interference", languageCode = "DE", category = "Biology"),
+        Word(original = "Stammzellforschung", translation = "stem cell research", languageCode = "DE", category = "Biology"),
+        Word(original = "Zellkommunikation", translation = "cell communication", languageCode = "DE", category = "Biology"),
+        Word(original = "Molekulare Evolution", translation = "molecular evolution", languageCode = "DE", category = "Biology"),
+        
+        // Additional Engineering terms
+        Word(original = "Additive Fertigung", translation = "additive manufacturing", languageCode = "DE", category = "Engineering"),
+        Word(original = "3D-Druck", translation = "3D printing", languageCode = "DE", category = "Engineering"),
+        Word(original = "Generative Design", translation = "generative design", languageCode = "DE", category = "Engineering"),
+        Word(original = "Digitaler Zwilling", translation = "digital twin", languageCode = "DE", category = "Engineering"),
+        Word(original = "Industrie 4.0", translation = "Industry 4.0", languageCode = "DE", category = "Engineering"),
+        Word(original = "Cyber-physische Systeme", translation = "cyber-physical systems", languageCode = "DE", category = "Engineering"),
+        Word(original = "Predictive Maintenance", translation = "predictive maintenance", languageCode = "DE", category = "Engineering"),
+        Word(original = "Smart Manufacturing", translation = "smart manufacturing", languageCode = "DE", category = "Engineering"),
+        Word(original = "Flexible Automation", translation = "flexible automation", languageCode = "DE", category = "Engineering"),
+        Word(original = "Lean Manufacturing", translation = "lean manufacturing", languageCode = "DE", category = "Engineering"),
+        
+        // Additional Medicine terms
+        Word(original = "Genommedizin", translation = "genomic medicine", languageCode = "DE", category = "Medicine"),
+        Word(original = "Pharmacogenomik", translation = "pharmacogenomics", languageCode = "DE", category = "Medicine"),
+        Word(original = "Immuntherapie", translation = "immunotherapy", languageCode = "DE", category = "Medicine"),
+        Word(original = "CAR-T-Zell-Therapie", translation = "CAR-T cell therapy", languageCode = "DE", category = "Medicine"),
+        Word(original = "Regenerative Medizin", translation = "regenerative medicine", languageCode = "DE", category = "Medicine"),
+        Word(original = "Stammzelltherapie", translation = "stem cell therapy", languageCode = "DE", category = "Medicine"),
+        Word(original = "Präzisionsmedizin", translation = "precision medicine", languageCode = "DE", category = "Medicine"),
+        Word(original = "Molekulardiagnostik", translation = "molecular diagnostics", languageCode = "DE", category = "Medicine"),
+        Word(original = "Liquid Biopsy", translation = "liquid biopsy", languageCode = "DE", category = "Medicine"),
+        Word(original = "Künstliche Intelligenz in der Medizin", translation = "artificial intelligence in medicine", languageCode = "DE", category = "Medicine"),
+        
+        // Additional Economics terms
+        Word(original = "Behavioral Economics", translation = "behavioral economics", languageCode = "DE", category = "Economics"),
+        Word(original = "Game Theory", translation = "game theory", languageCode = "DE", category = "Economics"),
+        Word(original = "Development Economics", translation = "development economics", languageCode = "DE", category = "Economics"),
+        Word(original = "Experimental Economics", translation = "experimental economics", languageCode = "DE", category = "Economics"),
+        Word(original = "Health Economics", translation = "health economics", languageCode = "DE", category = "Economics"),
+        Word(original = "Environmental Economics", translation = "environmental economics", languageCode = "DE", category = "Economics"),
+        Word(original = "Labour Economics", translation = "labour economics", languageCode = "DE", category = "Economics"),
+        Word(original = "Monetary Economics", translation = "monetary economics", languageCode = "DE", category = "Economics"),
+        Word(original = "Public Economics", translation = "public economics", languageCode = "DE", category = "Economics"),
+        Word(original = "International Trade", translation = "international trade", languageCode = "DE", category = "Economics"),
+        
+        // Additional Psychology terms
+        Word(original = "Kognitive Neurowissenschaft", translation = "cognitive neuroscience", languageCode = "DE", category = "Psychology"),
+        Word(original = "Verhaltensökonomik", translation = "behavioral economics", languageCode = "DE", category = "Psychology"),
+        Word(original = "Positive Psychologie", translation = "positive psychology", languageCode = "DE", category = "Psychology"),
+        Word(original = "Entwicklungspsychologie", translation = "developmental psychology", languageCode = "DE", category = "Psychology"),
+        Word(original = "Sozialpsychologie", translation = "social psychology", languageCode = "DE", category = "Psychology"),
+        Word(original = "Klinische Psychologie", translation = "clinical psychology", languageCode = "DE", category = "Psychology"),
+        Word(original = "Kognitionspsychologie", translation = "cognitive psychology", languageCode = "DE", category = "Psychology"),
+        Word(original = "Biologische Psychologie", translation = "biological psychology", languageCode = "DE", category = "Psychology"),
+        Word(original = "Experimentelle Psychologie", translation = "experimental psychology", languageCode = "DE", category = "Psychology"),
+        Word(original = "Psychologische Assessment", translation = "psychological assessment", languageCode = "DE", category = "Psychology")
     ) + (commonWordsSize()..10000).map { i ->
         Word(
             original = "German $i",
@@ -2336,5 +2444,5 @@ object PrepopulatedData {
         )
     }
 
-    private fun commonWordsSize(): Int = 2339 // Internal marker
+    private fun commonWordsSize(): Int = 2448 // Internal marker
 }
