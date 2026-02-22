@@ -64,13 +64,13 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Build Release APK
-        run: ./gradlew assembleRelease -PversionCode=${{ steps.versioning.outputs.total_commits }} -PversionName=${{ steps.versioning.outputs.version }}
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug -PversionCode=${{ steps.versioning.outputs.total_commits }} -PversionName=${{ steps.versioning.outputs.version }}
 
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "app/build/outputs/apk/release/*.apk"
+          artifacts: "app/build/outputs/apk/debug/*.apk"
           tag: ${{ steps.versioning.outputs.version }}
           name: Release ${{ steps.versioning.outputs.version }}
           body: |
