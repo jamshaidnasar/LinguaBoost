@@ -20,4 +20,10 @@ interface WordDao {
 
     @Update
     suspend fun updateWord(word: Word)
+
+    @Query("UPDATE words SET isLearned = :isLearned WHERE id = :wordId")
+    suspend fun setLearnedStatus(wordId: Int, isLearned: Boolean)
+
+    @Query("SELECT * FROM words WHERE isLearned = 0 ORDER BY lastReviewed ASC")
+    fun getUnlearnedWords(): Flow<List<Word>>
 }

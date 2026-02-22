@@ -11,5 +11,6 @@ data class Word(
     val languageCode: String,
     val category: String = "General",
     val proficiency: Int = 0,
+    val isLearned: Boolean = false,
     val lastReviewed: Long = System.currentTimeMillis()
 )

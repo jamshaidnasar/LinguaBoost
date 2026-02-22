@@ -18,8 +18,9 @@ class WordViewModel(application: Application) : AndroidViewModel(application) {
     private val _selectedCategory = MutableStateFlow("All")
     val selectedCategory: StateFlow<String> = _selectedCategory.asStateFlow()
 
+    // Main list of unlearned words
     val words: StateFlow<List<Word>> = combine(
-        wordDao.getAllWords(),
+        wordDao.getUnlearnedWords(),
         _searchQuery,
         _selectedCategory
     ) { allWords, query, category ->
@@ -31,7 +32,12 @@ class WordViewModel(application: Application) : AndroidViewModel(application) {
         }
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
-    val categories: StateFlow<List<String>> = wordDao.getAllWords().map { allWords ->
+    // Highlighted word (pick the first unlearned one or a random one)
+    val featuredWord: StateFlow<Word?> = words.map { 
+        it.firstOrNull() 
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), null)
+
+    val categories: StateFlow<List<String>> = wordDao.getUnlearnedWords().map { allWords ->
         listOf("All") + allWords.map { it.category }.distinct().sorted()
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), listOf("All"))
 
@@ -41,5 +47,11 @@ class WordViewModel(application: Application) : AndroidViewModel(application) {
 
     fun updateCategory(category: String) {
         _selectedCategory.value = category
+    }
+
+    fun markAsLearned(word: Word) {
+        viewModelScope.launch {
+            wordDao.setLearnedStatus(word.id, true)
+        }
     }
 }

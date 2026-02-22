@@ -23,6 +23,7 @@ fun HomeScreen(viewModel: WordViewModel = viewModel()) {
     val categories by viewModel.categories.collectAsState()
     val searchQuery by viewModel.searchQuery.collectAsState()
     val selectedCategory by viewModel.selectedCategory.collectAsState()
+    val featuredWord by viewModel.featuredWord.collectAsState()
 
     Scaffold(
         topBar = {
@@ -45,6 +46,36 @@ fun HomeScreen(viewModel: WordViewModel = viewModel()) {
                 .padding(innerPadding)
                 .fillMaxSize()
         ) {
+            // Featured Word of the Day / Focus
+            featuredWord?.let { word ->
+                Card(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)
+                ) {
+                    Column(modifier = Modifier.padding(24.dp)) {
+                        Text("Word Focus", style = MaterialTheme.typography.labelMedium)
+                        Text(
+                            text = word.original,
+                            style = MaterialTheme.typography.displayMedium,
+                            fontWeight = FontWeight.Black
+                        )
+                        Text(
+                            text = word.translation,
+                            style = MaterialTheme.typography.headlineSmall
+                        )
+                        Spacer(modifier = Modifier.height(16.dp))
+                        Button(
+                            onClick = { viewModel.markAsLearned(word) },
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Text("Mark as Learned")
+                        }
+                    }
+                }
+            }
+
             // Search Bar
             OutlinedTextField(
                 value = searchQuery,
@@ -87,7 +118,7 @@ fun HomeScreen(viewModel: WordViewModel = viewModel()) {
                     )
                 }
                 items(words) { word ->
-                    WordItem(word)
+                    WordItem(word, onLearned = { viewModel.markAsLearned(word) })
                 }
             }
         }
@@ -95,7 +126,7 @@ fun HomeScreen(viewModel: WordViewModel = viewModel()) {
 }
 
 @Composable
-fun WordItem(word: Word) {
+fun WordItem(word: Word, onLearned: () -> Unit) {
     Card(
         modifier = Modifier.fillMaxWidth(),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
@@ -106,30 +137,37 @@ fun WordItem(word: Word) {
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
-                Text(
-                    text = word.original,
-                    style = MaterialTheme.typography.headlineSmall,
-                    color = MaterialTheme.colorScheme.primary,
-                    fontWeight = FontWeight.Bold
-                )
-                Surface(
-                    color = MaterialTheme.colorScheme.secondaryContainer,
-                    shape = MaterialTheme.shapes.small
-                ) {
+                Column {
                     Text(
-                        text = word.category,
-                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
-                        style = MaterialTheme.typography.labelSmall,
-                        color = MaterialTheme.colorScheme.onSecondaryContainer
+                        text = word.original,
+                        style = MaterialTheme.typography.headlineSmall,
+                        color = MaterialTheme.colorScheme.primary,
+                        fontWeight = FontWeight.Bold
+                    )
+                    Text(
+                        text = word.translation,
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 }
+                Column(horizontalAlignment = androidx.compose.ui.Alignment.End) {
+                    Surface(
+                        color = MaterialTheme.colorScheme.secondaryContainer,
+                        shape = MaterialTheme.shapes.small
+                    ) {
+                        Text(
+                            text = word.category,
+                            modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
+                            style = MaterialTheme.typography.labelSmall,
+                            color = MaterialTheme.colorScheme.onSecondaryContainer
+                        )
+                    }
+                    Spacer(modifier = Modifier.height(8.dp))
+                    TextButton(onClick = onLearned) {
+                        Text("Learned", style = MaterialTheme.typography.labelMedium)
+                    }
+                }
             }
-            Spacer(modifier = Modifier.height(4.dp))
-            Text(
-                text = word.translation,
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
         }
     }
 }
