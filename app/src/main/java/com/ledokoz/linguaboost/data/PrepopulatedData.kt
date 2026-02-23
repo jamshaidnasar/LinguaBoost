@@ -3686,23 +3686,6 @@ object PrepopulatedData {
         Word(original = "Venture Capital", translation = "venture capital", languageCode = "DE", category = "OfficeBusiness"),
         Word(original = "Business Angel", translation = "business angel", languageCode = "DE", category = "OfficeBusiness"),
         Word(original = "Crowdfunding", translation = "crowdfunding", languageCode = "DE", category = "OfficeBusiness")
-    ) + (commonWordsSize()..10000).map { i ->
-        Word(
-            original = "German $i",
-            translation = "English $i",
-            languageCode = "DE",
-            category = when {
-                i % 8 == 0 -> "Science"
-                i % 8 == 1 -> "Law"
-                i % 8 == 2 -> "Politics"
-                i % 8 == 3 -> "Art"
-                i % 8 == 4 -> "Sports"
-                i % 8 == 5 -> "Leisure"
-                i % 8 == 6 -> "History"
-                else -> "Literature"
-            }
-        )
-    }
+    )
 
-    private fun commonWordsSize(): Int = 3717 // Internal marker
 }
