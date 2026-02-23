@@ -3,6 +3,7 @@ package com.ledokoz.linguaboost.ui.theme
 import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.ui.graphics.Color
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
@@ -21,10 +22,17 @@ private val DarkColorScheme = darkColorScheme(
 
 private val LightColorScheme = lightColorScheme(
     primary = PrimaryBlue,
+    onPrimary = Color.White,
+    primaryContainer = PrimaryContainerLight,
+    onPrimaryContainer = OnPrimaryContainerLight,
     secondary = SecondaryBlue,
     tertiary = TertiaryBlue,
+    tertiaryContainer = TertiaryContainerLight,
+    onTertiaryContainer = OnTertiaryContainerLight,
     background = BackgroundLight,
-    surface = SurfaceLight
+    surface = SurfaceLight,
+    surfaceVariant = SurfaceVariantLight,
+    onSurfaceVariant = OnSurfaceVariantLight
 )
 
 @Composable

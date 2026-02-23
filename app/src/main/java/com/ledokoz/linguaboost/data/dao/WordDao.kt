@@ -15,6 +15,9 @@ interface WordDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertWord(word: Word)
 
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertWords(words: List<Word>)
+
     @Delete
     suspend fun deleteWord(word: Word)
 
@@ -26,4 +29,10 @@ interface WordDao {
 
     @Query("SELECT * FROM words WHERE isLearned = 0 ORDER BY lastReviewed ASC")
     fun getUnlearnedWords(): Flow<List<Word>>
+
+    @Query("SELECT COUNT(*) FROM words")
+    fun getTotalCount(): Flow<Int>
+
+    @Query("SELECT COUNT(*) FROM words WHERE isLearned = 1")
+    fun getLearnedCount(): Flow<Int>
 }

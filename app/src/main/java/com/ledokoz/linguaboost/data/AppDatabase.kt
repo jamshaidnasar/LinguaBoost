@@ -46,9 +46,7 @@ abstract class AppDatabase : RoomDatabase() {
 
             suspend fun populateDatabase(wordDao: WordDao) {
                 // Prepopulate with words
-                PrepopulatedData.commonWords.forEach {
-                    wordDao.insertWord(it)
-                }
+                wordDao.insertWords(PrepopulatedData.commonWords)
             }
         }
     }

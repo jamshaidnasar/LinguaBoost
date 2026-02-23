@@ -54,4 +54,23 @@ class WordViewModel(application: Application) : AndroidViewModel(application) {
             wordDao.setLearnedStatus(word.id, true)
         }
     }
+
+    val totalCount: StateFlow<Int> = wordDao.getTotalCount()
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), 0)
+
+    val learnedCount: StateFlow<Int> = wordDao.getLearnedCount()
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), 0)
+
+    fun addWord(original: String, translation: String, category: String) {
+        viewModelScope.launch {
+            wordDao.insertWord(
+                Word(
+                    original = original,
+                    translation = translation,
+                    languageCode = "DE",
+                    category = category
+                )
+            )
+        }
+    }
 }
